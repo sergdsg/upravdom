@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.КомунальныеПлатежи.Subsystem.Газоснабжение</subsystems>
+    <subsystems>Subsystem.КомунальныеПлатежи.Subsystem.Электроснабжение</subsystems>
+    <subsystems>Subsystem.КомунальныеПлатежи.Subsystem.Интернет</subsystems>
+    <subsystems>Subsystem.КомунальныеПлатежи.Subsystem.ТвердыеКомунальныеОтходы</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="706ad171-7340-4c7a-936d-72bf2adbe5c8">
+  <producedTypes>
+    <objectType typeId="2cc23592-8d0c-49ce-914f-711749153bd4" valueTypeId="7f70deff-570b-40dd-a361-b3a1eee8a2bc"/>
+    <refType typeId="bcf171be-78d9-4a99-a36a-0cf6e5ff49d7" valueTypeId="84542e3d-d73c-4e8b-a24d-71e01b0d56b0"/>
+    <selectionType typeId="0d8abc82-7f0d-4b7c-b2e9-29257b06ffd7" valueTypeId="77acda64-ac1e-404e-92ca-f5b69be5084c"/>
+    <listType typeId="3b66dd60-9162-4b98-a775-0870fa121a25" valueTypeId="776873cd-6646-41ac-b042-0282b6e869e4"/>
+    <managerType typeId="7620ff0c-6923-4d09-891a-508a90942da9" valueTypeId="65c40827-c39c-42b2-b142-87dd5890586e"/>
+  </producedTypes>
+  <name>ВидыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыДокументов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыДокументов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3061712b-7069-4d0e-bb98-81071f722158">
+      <name>ИНН</name>
+      <description>ИНН</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="fe189171-8631-48db-ade6-a7cd8eddf853">
+      <name>Паспорт</name>
+      <description>Паспорт</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="cdb4a6ef-78ba-4c95-a73c-de313b32a8f1">
+      <name>СвидетельствоОРождении</name>
+      <description>Свидетельство о рождении</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="3c88c270-cbfb-4057-9bf8-9f706065a5b9">
+      <name>СНИЛС</name>
+      <description>СНИЛС</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

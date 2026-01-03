@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecbe6483-0abb-465a-a8be-74f8485eb2c9">
+  <name>КомунальныеПлатежи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комунальные платежи</value>
+  </synonym>
+</mdclass:CommonPicture>

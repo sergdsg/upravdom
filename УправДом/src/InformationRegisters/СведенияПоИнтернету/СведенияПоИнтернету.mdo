@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8c434b5-f326-48cb-8f23-e8fe6186c2e8">
+  <producedTypes>
+    <selectionType typeId="8617ce3d-79c4-4e96-a31a-e40c8a033d8e" valueTypeId="6558def4-c4f0-4f39-bae0-af9a2a22a525"/>
+    <listType typeId="7d3e157d-ff6c-4279-934f-741b03c4bcce" valueTypeId="573cc55a-a282-48ef-9928-3acdb434ee26"/>
+    <managerType typeId="6531f5cf-7451-46af-8485-b97c897e87fc" valueTypeId="ca517554-8fc3-4f16-bb0d-cb66f21b5b5b"/>
+    <recordSetType typeId="d330b20c-a0f9-48bd-b0de-807587b1f09b" valueTypeId="93a65f96-7cc0-45b3-9a18-f0d716c6a0c0"/>
+    <recordKeyType typeId="00d65046-a7d9-4a95-9a23-052347d10e7d" valueTypeId="068a4e38-da4c-4f09-8079-5ab20a4d0fcb"/>
+    <recordType typeId="cf45b2bc-ecf3-4355-aa55-319c1371361c" valueTypeId="8cf6d27d-d7db-4a69-af77-de7890dd969f"/>
+    <recordManagerType typeId="88d54faa-3fdc-4cef-b84f-7f58d0a44e84" valueTypeId="dbc5150e-cc28-4f88-870a-7b6483486fa9"/>
+  </producedTypes>
+  <name>СведенияПоИнтернету</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения по интернету</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ea277b18-b6a9-4706-9edd-053749663edd">
+    <name>ЦенаИнтернет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена интернет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="11dc3b60-2bb7-48a9-86da-d2afd8b11a34">
+    <name>ДопУслугиИнтернет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные услуги интернет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="84f85341-ac29-409a-b772-c392c94f6b97">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="3c48a6b9-647b-406d-a800-555c42e4c799">
+    <name>КодМесяцаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код месяца оплаты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="49d14ae1-0315-4890-8b51-c0a4aafded6e">
+    <name>ОплачиваемыйМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачиваемый месяц</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МесяцыОплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

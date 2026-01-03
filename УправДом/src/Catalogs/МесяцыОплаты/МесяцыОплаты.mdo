@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b8b82d6-8d40-44c4-b84b-6ece0bcc92b0">
+  <producedTypes>
+    <objectType typeId="9d2e7238-731c-4127-ae79-26dae58c6f9f" valueTypeId="a7f37c4b-f509-4d13-b95b-74e1e40315cb"/>
+    <refType typeId="046209e9-a4e9-404d-aa12-9bc0139a54f6" valueTypeId="6214848e-4042-4ace-8797-af47e4c41fb1"/>
+    <selectionType typeId="c2fbadf9-212d-4bfa-bb56-e674bfc0c92c" valueTypeId="2ead8ce9-dd3e-41ab-b996-252683371856"/>
+    <listType typeId="7af907d3-af6f-4510-98b4-67a077cbcb03" valueTypeId="52628365-0be4-4d7f-aa7d-87272cdebf0c"/>
+    <managerType typeId="7e961979-41a6-4ec1-a674-5630b4497e88" valueTypeId="6c411629-7364-463f-94f4-b50da6e2f51d"/>
+  </producedTypes>
+  <name>МесяцыОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Месяцы оплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МесяцыОплаты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МесяцыОплаты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e3954406-f347-4599-af42-1f18c1ed040b">
+      <name>август_2025</name>
+      <description>Август 2025</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="ea39a24b-3b82-40f0-9f0c-60a74335a076">
+      <name>аплель_2025</name>
+      <description>Аплель 2025</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="c330b2be-8e98-47d7-b352-71b8dad096cc">
+      <name>декабрь_2025</name>
+      <description>Декабрь 2025</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="d41f3370-1cad-47bc-8e4d-1c36e5cd45cd">
+      <name>июль_2025</name>
+      <description>Июль 2025</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="7039b33a-c642-40a9-8aaf-a87e5f6f93b7">
+      <name>июнь_2025</name>
+      <description>Июнь 2025</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="03af42f4-a18a-4e87-a143-db57dd10f3b1">
+      <name>май_2025</name>
+      <description>Май 2025</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="9b9654d3-7b1a-46a2-8ec9-fa4a5c63d38b">
+      <name>март_2025</name>
+      <description>Март 2025</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="76775eaf-6a38-42ec-af61-b5e9814b15be">
+      <name>ноябрь_2025</name>
+      <description>Ноябрь 2025</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="072fd792-cc73-46bf-8418-9cce4c3caa48">
+      <name>октябрь_2025</name>
+      <description>Октябрь 2025</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="d8f2d9ad-9a67-4564-874a-c24b2761ccde">
+      <name>сентябрь_2025</name>
+      <description>Сентябрь 2025</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="9cbe3c89-f798-4dbd-ba68-5bec90486aac">
+      <name>февраль_2025</name>
+      <description>Февраль 2025</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="8452636f-79d7-4c9d-af62-7f6182e0cc88">
+      <name>январь_2025</name>
+      <description>Январь 2025</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

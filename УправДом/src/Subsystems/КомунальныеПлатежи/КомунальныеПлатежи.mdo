@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c991b73-fca7-4e3c-995a-ef97ff1fc75a">
+  <name>КомунальныеПлатежи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комунальные платежи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КомунальныеПлатежи</picture>
+  </picture>
+  <subsystems>Газоснабжение</subsystems>
+  <subsystems>Электроснабжение</subsystems>
+  <subsystems>ТвердыеКомунальныеОтходы</subsystems>
+  <subsystems>Интернет</subsystems>
+</mdclass:Subsystem>

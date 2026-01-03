@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65a73016-fa71-428a-8c0e-88728f81db8c">
+  <name>Газоснабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Газоснабжение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Газоснабжение</picture>
+  </picture>
+  <content>Document.ОплатаГазоснабжения</content>
+  <content>InformationRegister.СведенияПоГазоснабжению</content>
+  <content>Document.УстановкаНачальныхПоказанийГазоснабжения</content>
+  <content>Document.ПропускПлатежаПоГазоснабжению</content>
+  <parentSubsystem>Subsystem.КомунальныеПлатежи</parentSubsystem>
+</mdclass:Subsystem>

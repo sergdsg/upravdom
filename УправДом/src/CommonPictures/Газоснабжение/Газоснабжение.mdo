@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20de389a-19b8-46e2-acd3-bf82a19afba9">
+  <name>Газоснабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Газоснабжение</value>
+  </synonym>
+</mdclass:CommonPicture>

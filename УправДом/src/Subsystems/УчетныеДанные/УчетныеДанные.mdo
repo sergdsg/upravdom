@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd011854-2f81-4ebd-8b37-2e6d709ec4c7">
+  <name>УчетныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетные данные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.УчетныеДанные</picture>
+  </picture>
+  <content>Enum.Пол</content>
+  <content>Catalog.СемейныйСтатус</content>
+  <content>Catalog.СоставСемьи</content>
+  <content>Catalog.ВидыДокументов</content>
+</mdclass:Subsystem>

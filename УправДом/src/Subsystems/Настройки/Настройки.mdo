@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69a036b2-d72e-4e3d-8a9d-d8f00761dc35">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Настройки</picture>
+  </picture>
+  <content>Document.УстановкаЦенКомунальныхУслуг</content>
+  <content>Catalog.Счетчики</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>Catalog.МесяцыОплаты</content>
+  <content>Catalog.ВидыПлатежей</content>
+  <content>InformationRegister.ЦеныКомунальныхУслуг</content>
+  <content>Document.УстановкаНачальныхПоказанийГазоснабжения</content>
+  <content>Document.УстановкаНачальныхПоказанийЭлектроснабжения</content>
+  <content>InformationRegister.НормыКомунальныхУслуг</content>
+</mdclass:Subsystem>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71391a51-e844-4639-9a76-a656459a779c">
+  <producedTypes>
+    <objectType typeId="b6aef3f6-ab19-4346-9d37-3728bfa13357" valueTypeId="37f839ba-8625-49bd-8e95-f5d437cc094e"/>
+    <refType typeId="be59118b-c57f-43c0-95fd-e0cbd5baf808" valueTypeId="70fdb843-0ed9-4eec-8b46-8599ab125bec"/>
+    <selectionType typeId="2a39552e-5127-42a5-9ebd-93fc2536c987" valueTypeId="83e6fc88-2474-4f48-8f6d-39ef041553ee"/>
+    <listType typeId="0ea90213-0f96-467d-8316-1f758f12434f" valueTypeId="fa9093d6-4bd7-417e-a2e8-520212fe77bf"/>
+    <managerType typeId="25904057-bf93-441c-a48d-543d13dd42d4" valueTypeId="09e935dc-507b-40b1-8bd5-fc4ecf966c4f"/>
+  </producedTypes>
+  <name>СемейныйСтатус</name>
+  <synonym>
+    <key>ru</key>
+    <value>Семейный статус</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СемейныйСтатус.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СемейныйСтатус.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2b4b3a64-b684-46a6-9410-02b265bff1f5">
+      <name>Бабушка</name>
+      <description>Бабушка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="e70fcc06-0b02-48a8-8cc9-48cece929cb9">
+      <name>Дедушка</name>
+      <description>Дедушка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="f92a8ccd-ea13-415c-909d-2ae83ebb4866">
+      <name>Ребенок</name>
+      <description>Ребенок</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="9062a0d7-99e2-4bd7-add6-e98efee3a443">
+      <name>Супруг</name>
+      <description>Супруг</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="4bf1d0be-850e-411e-9533-91717575b2ea">
+      <name>Супруга</name>
+      <description>Супруга</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

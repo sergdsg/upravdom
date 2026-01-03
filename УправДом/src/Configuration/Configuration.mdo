@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44e18f40-7649-482b-86e3-f3e05342685a">
+  <name>УправДом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управдом</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="9b61ba28-3e7d-4d4e-bf19-3bcbd7edc7a6"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9ba54742-ca16-4d09-9a53-3a7566070a7e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b58814c4-ee6d-4f99-befd-89410b825e4a"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="13c095e1-9d35-4027-add6-9064939e93d8"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a106326f-1946-481a-9934-36521b398392"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6680e153-fd86-4d73-b6c0-e826ef6f8115"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="3df61fb1-f219-41f3-b203-69005164369b"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Дербенцев Сергей Геннадьевич</vendor>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Дербенцев Сергей Геннадьевич</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="78ad9ff0-1b1a-4fba-81d2-18e4c18e8a9d">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.КомунальныеПлатежи</subsystems>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.Товары</subsystems>
+  <subsystems>Subsystem.УчетныеДанные</subsystems>
+  <commonPictures>CommonPicture.Газоснабжение</commonPictures>
+  <commonPictures>CommonPicture.Интернет</commonPictures>
+  <commonPictures>CommonPicture.КомунальныеПлатежи</commonPictures>
+  <commonPictures>CommonPicture.Настройки</commonPictures>
+  <commonPictures>CommonPicture.ТвердыеКомунальныеОтходы</commonPictures>
+  <commonPictures>CommonPicture.Товары</commonPictures>
+  <commonPictures>CommonPicture.УчетныеДанные</commonPictures>
+  <commonPictures>CommonPicture.Электроснабжение</commonPictures>
+  <commandGroups>CommandGroup.Справочники</commandGroups>
+  <commandGroups>CommandGroup.Документы</commandGroups>
+  <commandGroups>CommandGroup.Сведения</commandGroups>
+  <catalogs>Catalog.ВидыДокументов</catalogs>
+  <catalogs>Catalog.ВидыПлатежей</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.МесяцыОплаты</catalogs>
+  <catalogs>Catalog.СемейныйСтатус</catalogs>
+  <catalogs>Catalog.СоставСемьи</catalogs>
+  <catalogs>Catalog.Счетчики</catalogs>
+  <documents>Document.ОплатаГазоснабжения</documents>
+  <documents>Document.ОплатаИнтернет</documents>
+  <documents>Document.ОплатаТКО</documents>
+  <documents>Document.ОплатаЭлектроснабжения</documents>
+  <documents>Document.ПокупкаТовапров</documents>
+  <documents>Document.ПропускПлатежаПоГазоснабжению</documents>
+  <documents>Document.УстановкаНачальныхПоказанийГазоснабжения</documents>
+  <documents>Document.УстановкаНачальныхПоказанийЭлектроснабжения</documents>
+  <documents>Document.УстановкаЦенКомунальныхУслуг</documents>
+  <enums>Enum.Пол</enums>
+  <informationRegisters>InformationRegister.НормыКомунальныхУслуг</informationRegisters>
+  <informationRegisters>InformationRegister.СведенияПоГазоснабжению</informationRegisters>
+  <informationRegisters>InformationRegister.СведенияПоИнтернету</informationRegisters>
+  <informationRegisters>InformationRegister.СведенияПоТКО</informationRegisters>
+  <informationRegisters>InformationRegister.СведенияПоЭлектроснабжению</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныКомунальныхУслуг</informationRegisters>
+</mdclass:Configuration>

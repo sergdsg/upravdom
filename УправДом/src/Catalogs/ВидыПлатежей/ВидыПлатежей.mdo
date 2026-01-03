@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a86ba471-191d-4547-b7d8-ab36aaf3cfca">
+  <producedTypes>
+    <objectType typeId="8bebc10c-66f9-4d98-bc0e-1c7f840850e2" valueTypeId="c900144b-0291-445a-9142-96d4b6422beb"/>
+    <refType typeId="b1813fd4-b4c3-41ef-b442-331cf21758ae" valueTypeId="fe940904-f160-48fa-b1f3-d7e94d094279"/>
+    <selectionType typeId="60e5835c-34ef-4aaa-814c-b6efdf8860ab" valueTypeId="bccbee36-7608-42bf-a72c-b1228b721d83"/>
+    <listType typeId="50615a2c-c836-4cbd-a8ff-c2c8cef6f2f7" valueTypeId="f7a757f8-2058-4f2b-9392-228b3944baa9"/>
+    <managerType typeId="3ef49958-09a6-44f8-bea7-332fcf95e173" valueTypeId="fac39eff-8284-4577-9fa1-601e59b19607"/>
+  </producedTypes>
+  <name>ВидыПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды платежей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыПлатежей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыПлатежей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="aa42fa0a-9f55-47a6-acaf-7b629a6bad73">
+      <name>Газоснабжение</name>
+      <description>Газоснабжение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="526ba544-6a26-4c18-9625-ae8d7cdf1b08">
+      <name>ДопУслугиИнтернет</name>
+      <description>Допуслуги интернет</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="f7590423-6baa-4ea8-99e3-5b32df48870f">
+      <name>Интернет</name>
+      <description>Интернет</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="307dc7fe-6026-452c-b7b0-de372674bc8f">
+      <name>ТКО</name>
+      <description>ТКО</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="02792b31-2433-41dd-9fd6-e4a993b659be">
+      <name>Электроснабжение</name>
+      <description>Электроснабжение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="50e0f341-c0c6-45d4-ae95-dd94408fae8d">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6b9d1fb2-3a1b-4cf7-b6b3-6f622f4e6561">
+    <name>Счетчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетчик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Счетчики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7da73c4-c48a-4f16-9d84-b62a22d6cedb">
+  <name>Электроснабжение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электроснабжение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Электроснабжение</picture>
+  </picture>
+  <content>InformationRegister.СведенияПоЭлектроснабжению</content>
+  <content>Document.ОплатаЭлектроснабжения</content>
+  <parentSubsystem>Subsystem.КомунальныеПлатежи</parentSubsystem>
+</mdclass:Subsystem>
