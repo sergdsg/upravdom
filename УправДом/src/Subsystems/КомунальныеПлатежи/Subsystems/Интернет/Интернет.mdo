@@ -10,7 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Интернет</picture>
   </picture>
-  <content>InformationRegister.СведенияПоИнтернету</content>
   <content>Document.ОплатаИнтернет</content>
   <parentSubsystem>Subsystem.КомунальныеПлатежи</parentSubsystem>
 </mdclass:Subsystem>

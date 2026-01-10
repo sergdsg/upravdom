@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cba08acb-285f-442e-ae9c-983d5a05f458">
+  <producedTypes>
+    <objectType typeId="f240fab4-c12d-4b8b-be72-ae8adc213f87" valueTypeId="7f986dd2-6e7e-41bc-babc-e52c9ec8f803"/>
+    <refType typeId="a65e1feb-158e-41eb-8962-7fa5032eb76d" valueTypeId="2f815007-93b9-4a6d-b1e8-c6d06f4faf37"/>
+    <selectionType typeId="f1116b10-d4a9-485f-8c7d-a4d06bc59f9b" valueTypeId="2a1f2ffa-eb02-40ee-a174-1bd9e3ad0309"/>
+    <listType typeId="f0db99d9-c93e-4ef6-a9e9-901559812ff0" valueTypeId="ea042a8f-4b2a-48b3-88ba-fcf4053c8302"/>
+    <managerType typeId="87c7cf1a-2971-465e-a71f-4f7d1e1a64c3" valueTypeId="37663c1d-5a9a-4f83-83c6-9d85cf191b2d"/>
+  </producedTypes>
+  <name>УстановкаТарифовКомунальныхУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка тарифов комунальных услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаТарифовКомунальныхУслуг.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаТарифовКомунальныхУслуг.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.ТарифыКоммунальныхУслуг</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="42156540-e1cf-4408-88e2-6ed703ec8b3f">
+    <name>ДатаНачалаДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала действия тарифа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4a97e897-fbd7-4c48-853e-33ff2e384f55">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="8a9802b6-c046-4eaa-b4f7-219456e898f4">
+    <producedTypes>
+      <objectType typeId="0525e65b-b546-453d-91ad-b825c962b5c7" valueTypeId="45844252-bf87-4792-b21a-c3a0367fef9f"/>
+      <rowType typeId="39b18691-2124-46eb-a1e5-c7d1b11dc8e5" valueTypeId="c9809cc2-a338-4f5a-93e6-8153d038df93"/>
+    </producedTypes>
+    <name>СписокТарифов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список тарифов</value>
+    </synonym>
+    <attributes uuid="abb3d46d-face-44d9-8dda-943cbea9f8e4">
+      <name>ВидПлатежа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид платежа</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыПлатежей</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6a8250c8-c551-4ff3-bdfe-a2e00a5745c7">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЕдиницыИзмерения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0dcd9a36-de09-4af2-929f-aed0f6d30265">
+      <name>Тариф</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тариф</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -10,7 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Электроснабжение</picture>
   </picture>
-  <content>InformationRegister.СведенияПоЭлектроснабжению</content>
   <content>Document.ОплатаЭлектроснабжения</content>
   <parentSubsystem>Subsystem.КомунальныеПлатежи</parentSubsystem>
 </mdclass:Subsystem>

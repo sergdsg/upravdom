@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dcc0758-4ef0-4079-84c3-a137d56acff6">
+  <producedTypes>
+    <selectionType typeId="c8ba166f-4e29-4cfd-9615-9903177b0b13" valueTypeId="12c8a1e0-b8c0-4a91-8522-cd3a7d16d076"/>
+    <listType typeId="c16ddc7b-b088-4d45-b605-425fd3a33c21" valueTypeId="c80e2556-fed0-4e92-bd08-2fda142b108a"/>
+    <managerType typeId="de99888e-b90c-45a1-928f-8811b94f7206" valueTypeId="a33ae885-0596-4f8c-afde-3ddff9652ffe"/>
+    <recordSetType typeId="bff105d2-5c53-4506-81f4-17c43712b8bd" valueTypeId="d565af17-3628-4603-85bf-e843044f47be"/>
+    <recordKeyType typeId="3095e64c-85da-4be2-aa7e-aa185a8d4e49" valueTypeId="da5a9519-74ee-49c3-9fe0-0dd800c7fc4a"/>
+    <recordType typeId="2768f201-c0e5-4553-bbd0-eded94f31e33" valueTypeId="135c12ab-6203-42dd-9ada-0f3cc1ad7bc5"/>
+    <recordManagerType typeId="55a296ee-3ce3-49a4-b97b-384bf5a1074f" valueTypeId="7dc06429-50e5-4179-89dd-3183cafac31a"/>
+  </producedTypes>
+  <name>НормативыКоммунальныхУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормативы коммунальных услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НормативыКоммунальныхУслуг.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="25bd2f83-3866-47e7-9466-3a683becf605">
+    <name>Норматив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норматив</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8e2467bc-e117-49d0-b326-0727e2c63c7c">
+    <name>ВидПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид платежа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПлатежей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="91e8e2ec-116f-47b3-9151-75b167716fb7">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

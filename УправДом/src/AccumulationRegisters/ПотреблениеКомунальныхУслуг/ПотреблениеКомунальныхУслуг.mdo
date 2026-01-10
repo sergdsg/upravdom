@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a10edfd-1fec-4e79-9973-22ff5aaae4a7">
+  <producedTypes>
+    <selectionType typeId="a6d652d0-e536-455b-8c45-32d8ca92d180" valueTypeId="5e14b74c-cc57-48db-b16e-070985def8c6"/>
+    <listType typeId="eba47882-17d8-49ee-8529-fefae28ab2f7" valueTypeId="8bf2e80a-8c10-45b9-9dca-96d8f7d9d254"/>
+    <managerType typeId="fe72bfb1-6925-4e84-8cd1-31360c6ee898" valueTypeId="5ece4197-8461-4252-8253-31ebfc571597"/>
+    <recordSetType typeId="3fca30a6-73d0-4ee9-8df0-f6a5ace62e46" valueTypeId="1313dba6-57ca-467e-a1e2-5f11cdd2db97"/>
+    <recordKeyType typeId="dbefb310-fca6-480b-8f3c-890af190b1d1" valueTypeId="640f0738-6e9c-4130-ae9a-885883aeb906"/>
+    <recordType typeId="554c1c93-fc44-409b-a0f1-b9800edda818" valueTypeId="1decaa0c-dfd8-4097-b19f-26dd33e2011e"/>
+  </producedTypes>
+  <name>ПотреблениеКомунальныхУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Потребление комунальных услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="de90ffb5-3bc1-4a2b-a0f0-f3cfa11bbce5">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="3ac6e226-eeb7-4456-be21-2382d705cb34">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="a24f8856-f5ed-47a7-8112-6b39b3b1d61e">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="85cc0312-6489-4874-b36d-e3aad719457d">
+    <name>ДопТариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп.тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="18c1a84a-21b3-4fea-8e85-cefde42f3730">
+    <name>Норматив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норматив</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="c96c037a-e21e-4719-8c35-971cae7b18da">
+    <name>ВидПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид платежа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПлатежей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:AccumulationRegister>

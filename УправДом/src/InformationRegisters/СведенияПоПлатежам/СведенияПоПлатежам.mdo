@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6677b20a-291d-4d3c-b5a7-1b92126a116a">
+  <producedTypes>
+    <selectionType typeId="fcd4e9e9-4eb5-4486-86ee-def1de7a9252" valueTypeId="41d7a5fb-e951-4c6c-a8a6-7450037345c5"/>
+    <listType typeId="9fac423a-31e6-4fe7-b2e9-c78fba1f0962" valueTypeId="40b7da05-661d-4147-a520-3e029f421fc6"/>
+    <managerType typeId="cbe30cea-4d7e-4b85-8181-efcb0533b182" valueTypeId="62cba91e-4a08-4c57-95cc-dff8b410ef5f"/>
+    <recordSetType typeId="11b80a15-87ed-4494-8e4c-d47eed4e3bca" valueTypeId="db4ca06d-4a82-4e94-9d7e-83e4614a2080"/>
+    <recordKeyType typeId="da29966d-a601-42da-9fae-7b1495e275fd" valueTypeId="8ef9c5ee-0f31-476c-8464-6c456ef47e88"/>
+    <recordType typeId="5db0623b-65d8-49f0-bcdd-8a2f83b194e8" valueTypeId="892367ae-d2e5-4556-bc37-72b5e1d24c4b"/>
+    <recordManagerType typeId="5e9eb7a8-3cb5-4585-82e6-eb262d8af0a5" valueTypeId="3a9d8281-bd44-412d-af42-69fec30d1f53"/>
+  </producedTypes>
+  <name>СведенияПоПлатежам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения по платежам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1e3532db-83d1-440e-afd2-e1562fe71a45">
+    <name>ТекущиеПоказания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущие показания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d8e9d104-db8e-4f59-b10e-29ee8f3b7da1">
+    <name>ПоказанияНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показания начисления</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="60ecc63c-9fe0-4fb3-9f0d-8f689b613944">
+    <name>СтарыеПоказания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старые показания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="361877b3-c705-4630-b0b0-59b2d5c5f877">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b89cefe9-75ec-46cc-bfcb-a46b52183ea7">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="579c9c44-0377-4ddf-a3f0-3a6b8e389b9c">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d0422ec9-7d03-47f6-961a-3a2221c5f917">
+    <name>Норматив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норматив</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>3</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1292f655-9a17-4649-bf04-2ee9c6cb03df">
+    <name>ДопТариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп.тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="077c5402-f5af-47ba-af20-94ad77b06647">
+    <name>ВидПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид платежа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПлатежей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

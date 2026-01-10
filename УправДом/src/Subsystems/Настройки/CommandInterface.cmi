@@ -14,43 +14,13 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Catalog.МесяцыОплаты.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Catalog.Счетчики.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.УстановкаЦенКомунальныхУслуг.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Document.УстановкаНачальныхПоказанийГазоснабжения.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Document.УстановкаНачальныхПоказанийЭлектроснабжения.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>InformationRegister.ЦеныКомунальныхУслуг.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>InformationRegister.НормыКомунальныхУслуг.StandardCommand.OpenList</command>
+      <command>InformationRegister.ТарифыКоммунальныхУслуг.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
       </visible>
@@ -61,19 +31,18 @@
       <group>CommandGroup.Справочники</group>
       <commands>Catalog.ВидыПлатежей.StandardCommand.OpenList</commands>
       <commands>Catalog.ЕдиницыИзмерения.StandardCommand.OpenList</commands>
-      <commands>Catalog.МесяцыОплаты.StandardCommand.OpenList</commands>
       <commands>Catalog.Счетчики.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Документы</group>
-      <commands>Document.УстановкаЦенКомунальныхУслуг.StandardCommand.OpenList</commands>
-      <commands>Document.УстановкаНачальныхПоказанийГазоснабжения.StandardCommand.OpenList</commands>
-      <commands>Document.УстановкаНачальныхПоказанийЭлектроснабжения.StandardCommand.OpenList</commands>
+      <commands>Document.УстановкаТарифовКомунальныхУслуг.StandardCommand.OpenList</commands>
+      <commands>Document.УстановкаПервичныхДанныхГазоснабжения.StandardCommand.OpenList</commands>
+      <commands>Document.УстановкаПервичныхДанныхЭлектроснабжения.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Сведения</group>
-      <commands>InformationRegister.ЦеныКомунальныхУслуг.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.НормыКомунальныхУслуг.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ТарифыКоммунальныхУслуг.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.НормативыКоммунальныхУслуг.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
@@ -81,19 +50,18 @@
       <group>CommandGroup.Справочники</group>
       <commands>Catalog.ВидыПлатежей.StandardCommand.OpenList</commands>
       <commands>Catalog.ЕдиницыИзмерения.StandardCommand.OpenList</commands>
-      <commands>Catalog.МесяцыОплаты.StandardCommand.OpenList</commands>
       <commands>Catalog.Счетчики.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.Документы</group>
-      <commands>Document.УстановкаЦенКомунальныхУслуг.StandardCommand.OpenList</commands>
-      <commands>Document.УстановкаНачальныхПоказанийГазоснабжения.StandardCommand.OpenList</commands>
-      <commands>Document.УстановкаНачальныхПоказанийЭлектроснабжения.StandardCommand.OpenList</commands>
+      <commands>Document.УстановкаТарифовКомунальныхУслуг.StandardCommand.OpenList</commands>
+      <commands>Document.УстановкаПервичныхДанныхГазоснабжения.StandardCommand.OpenList</commands>
+      <commands>Document.УстановкаПервичныхДанныхЭлектроснабжения.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.Сведения</group>
-      <commands>InformationRegister.ЦеныКомунальныхУслуг.StandardCommand.OpenList</commands>
-      <commands>InformationRegister.НормыКомунальныхУслуг.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ТарифыКоммунальныхУслуг.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.НормативыКоммунальныхУслуг.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

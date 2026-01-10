@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fff5d75-0f5f-4c03-a5b6-c896ade77cf3">
+  <producedTypes>
+    <selectionType typeId="9a94346a-91c7-4648-814d-ffd8cf982553" valueTypeId="89bd6301-db56-40eb-b47f-f2042c9b4b2b"/>
+    <listType typeId="e1039b75-5d0a-4580-9f36-443b8b6c1b56" valueTypeId="52a63e8a-64a6-45e7-9927-c23bfc249637"/>
+    <managerType typeId="0f3b1ec8-422b-4573-93d9-63c81e0b08f3" valueTypeId="644c832b-f39e-4fce-8f7d-ff6d89daa639"/>
+    <recordSetType typeId="f8231c0d-2e6c-4034-85dd-f856f9f60b09" valueTypeId="524674f1-2bbe-43e1-b964-dc5fdaf64051"/>
+    <recordKeyType typeId="f17305cd-f739-4fa7-9906-4ac6d80ad20c" valueTypeId="f115428d-f6c1-4409-b82f-ce135ee60fef"/>
+    <recordType typeId="845aea90-5316-4c29-b82e-3bc8cafcd0d6" valueTypeId="0455f3d1-91bf-4ea7-99b9-e7303f0f8305"/>
+    <recordManagerType typeId="9e760a6d-b7d3-422b-a0b7-acc6e13f8f48" valueTypeId="2c5d4648-6584-45cb-91e1-21d847d13060"/>
+  </producedTypes>
+  <name>ТарифыКоммунальныхУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы коммунальных услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fca9c393-3ab1-4f39-bafc-907b9677adcf">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="76ea97f5-3194-4e95-aa5f-a1ce5fefac61">
+    <name>ВидПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид платежа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПлатежей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

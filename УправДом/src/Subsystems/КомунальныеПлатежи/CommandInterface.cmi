@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>AccumulationRegister.ПотреблениеКомунальныхУслуг.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.СведенияПоПлатежам.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>CommandGroup.Сведения</group>
+      <commands>InformationRegister.СведенияПоПлатежам.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ПотреблениеКомунальныхУслуг.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>CommandGroup.Сведения</group>
+      <commands>InformationRegister.СведенияПоПлатежам.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ПотреблениеКомунальныхУслуг.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
   <subsystemsOrder>
     <subsystems>Subsystem.КомунальныеПлатежи.Subsystem.Газоснабжение</subsystems>
     <subsystems>Subsystem.КомунальныеПлатежи.Subsystem.Электроснабжение</subsystems>

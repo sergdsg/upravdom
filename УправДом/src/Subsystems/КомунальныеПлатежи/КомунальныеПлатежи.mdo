@@ -10,6 +10,8 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.КомунальныеПлатежи</picture>
   </picture>
+  <content>AccumulationRegister.ПотреблениеКомунальныхУслуг</content>
+  <content>InformationRegister.СведенияПоПлатежам</content>
   <subsystems>Газоснабжение</subsystems>
   <subsystems>Электроснабжение</subsystems>
   <subsystems>ТвердыеКомунальныеОтходы</subsystems>

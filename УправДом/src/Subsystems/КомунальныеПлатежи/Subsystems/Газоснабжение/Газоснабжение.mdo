@@ -11,8 +11,5 @@
     <picture>CommonPicture.Газоснабжение</picture>
   </picture>
   <content>Document.ОплатаГазоснабжения</content>
-  <content>InformationRegister.СведенияПоГазоснабжению</content>
-  <content>Document.УстановкаНачальныхПоказанийГазоснабжения</content>
-  <content>Document.ПропускПлатежаПоГазоснабжению</content>
   <parentSubsystem>Subsystem.КомунальныеПлатежи</parentSubsystem>
 </mdclass:Subsystem>

@@ -1,49 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
-  <commandsVisibility>
-    <visibilityFragments>
-      <command>Document.ОплатаГазоснабжения.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Document.ПропускПлатежаПоГазоснабжению.StandardCommand.OpenList</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>Document.УстановкаНачальныхПоказанийГазоснабжения.StandardCommand.OpenList</command>
-      <visible/>
-    </visibilityFragments>
-    <visibilityFragments>
-      <command>InformationRegister.СведенияПоГазоснабжению.StandardCommand.OpenList</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-  </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
       <group>CommandGroup.Документы</group>
       <commands>Document.ОплатаГазоснабжения.StandardCommand.OpenList</commands>
-      <commands>Document.ПропускПлатежаПоГазоснабжению.StandardCommand.OpenList</commands>
-      <commands>Document.УстановкаНачальныхПоказанийГазоснабжения.StandardCommand.OpenList</commands>
-    </placementFragments>
-    <placementFragments>
-      <group>CommandGroup.Сведения</group>
-      <commands>InformationRegister.СведенияПоГазоснабжению.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>CommandGroup.Документы</group>
       <commands>Document.ОплатаГазоснабжения.StandardCommand.OpenList</commands>
-      <commands>Document.ПропускПлатежаПоГазоснабжению.StandardCommand.OpenList</commands>
-      <commands>Document.УстановкаНачальныхПоказанийГазоснабжения.StandardCommand.OpenList</commands>
-    </orderFragments>
-    <orderFragments>
-      <group>CommandGroup.Сведения</group>
-      <commands>InformationRegister.СведенияПоГазоснабжению.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

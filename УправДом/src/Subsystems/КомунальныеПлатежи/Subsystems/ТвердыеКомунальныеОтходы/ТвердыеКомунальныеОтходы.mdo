@@ -10,7 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ТвердыеКомунальныеОтходы</picture>
   </picture>
-  <content>InformationRegister.СведенияПоТКО</content>
   <content>Document.ОплатаТКО</content>
   <parentSubsystem>Subsystem.КомунальныеПлатежи</parentSubsystem>
 </mdclass:Subsystem>

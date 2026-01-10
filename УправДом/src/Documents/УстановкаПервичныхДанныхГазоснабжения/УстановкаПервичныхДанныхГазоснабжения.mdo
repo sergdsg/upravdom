@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b7ff4e4-0ad6-4b39-9589-985a83c7b6b7">
+  <producedTypes>
+    <objectType typeId="34ac922f-378b-4e10-a7d6-8f0080428e9a" valueTypeId="fc80b7f5-11c8-4f5d-97e5-6e365682662c"/>
+    <refType typeId="73cdf456-1725-412e-9f00-50e6c18cc462" valueTypeId="65bd00bb-226f-4fa2-8532-eb84fe7d3bee"/>
+    <selectionType typeId="9ca1c168-5f72-4db6-8e7c-7268f1bcfabd" valueTypeId="d6172b90-e91f-4d6c-8199-99d351e124f7"/>
+    <listType typeId="7350993b-3448-4145-bdeb-1e56dae23fb2" valueTypeId="9d5cb134-05d2-46d8-b0c8-c2681e8b4519"/>
+    <managerType typeId="3689ec01-2ec6-4e86-8ced-143f2e5bb6fc" valueTypeId="ffa6750d-f357-4518-b792-62e86932ee61"/>
+  </producedTypes>
+  <name>УстановкаПервичныхДанныхГазоснабжения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка первичных данных газоснабжения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаПервичныхДанныхГазоснабжения.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Установка первичных данных газоснабжения</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаПервичныхДанныхГазоснабжения.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.УстановкаПервичныхДанныхГазоснабжения.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.СведенияПоПлатежам</registerRecords>
+  <registerRecords>AccumulationRegister.ПотреблениеКомунальныхУслуг</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="40c6ffed-0f7e-4a5a-98a7-40a9b57cccec">
+    <name>ВидПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид платежа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПлатежей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.ВидыПлатежей.Газоснабжение</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4f9ac3ef-0250-4d36-8b2d-3cfba20b3e80">
+    <name>КрайнийОплаченныйМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Крайний оплаченный месяц</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МесяцыОплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="168acf41-b649-4c81-b878-64e35020ba71">
+    <name>ГодПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7732cb57-a7e7-4527-8b16-3116be1d0dd3">
+    <name>КрайнийОплаченныйПериодСлужебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Крайний оплаченный период служебный</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=MM.yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=MM.yyyy</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e4329f7c-ed4f-4890-b02d-63f47127dd6a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="af83325b-ba54-4a28-8cf3-dc46a14cff8b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="84e641c7-2762-42e8-bf46-45356bb2577c">
+    <producedTypes>
+      <objectType typeId="87c00267-ef8e-412d-bad6-fa47d57f363d" valueTypeId="bdf71979-a2e2-4d3d-af7d-f5faf60c2954"/>
+      <rowType typeId="b9dff4ce-76f6-4be1-a0a9-b63bb0ac2146" valueTypeId="52cabdff-ceab-411d-9dbe-1d60211becff"/>
+    </producedTypes>
+    <name>НачальныеПоказания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальные показания</value>
+    </synonym>
+    <attributes uuid="93cfc819-f855-4566-9533-9b66bc27ca66">
+      <name>КрайниеПереданныеПоказания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Крайние переданные показания</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8cb1aef2-a12a-4fb8-b933-799b613d08c5">
+      <name>КрайниеОплаченныеПоказания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Крайние оплаченные показания</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="08ad85cc-8db7-4602-ad5e-2281a45fd3d8">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d16a58b2-0e57-4f38-8c82-e31f3cdc3b9d">
+      <name>СуммаПлатежа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма платежа</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>12</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

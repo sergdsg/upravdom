@@ -1,64 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4bd0978-1168-4a38-97b8-f05987b69db3">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff29ad3b-28a2-49a7-9764-2dac485deddb">
   <producedTypes>
-    <objectType typeId="496f5c80-8dcb-4050-92c5-c569355332a3" valueTypeId="d95b0348-30b2-41e7-a626-a48c0b2533df"/>
-    <refType typeId="8c38d268-b6ab-47e2-96a3-7713445a1035" valueTypeId="5d1c2f00-ce41-4e09-93f1-9c2d269f6663"/>
-    <selectionType typeId="dcbd7688-f25b-4f1e-b87f-68066b00f4ae" valueTypeId="bede2706-f12f-4f85-b477-390301dc0e92"/>
-    <listType typeId="0dda32c6-dd68-4b97-bebf-f4b5d777ebd2" valueTypeId="a50e976c-3ddb-4f7a-af14-04618bf44b9d"/>
-    <managerType typeId="df3d5f4f-ef5e-4129-817f-4d260565f4c9" valueTypeId="cfc3f2ee-5ceb-4bfc-a512-dfc76a4909d3"/>
+    <objectType typeId="35569836-f9c3-443e-b9e3-0a3ef605f0da" valueTypeId="1f394485-73ca-4417-9d75-83ad8198b1f3"/>
+    <refType typeId="60951555-e238-47b2-a22c-37e4d03fffc2" valueTypeId="ca52ca2a-46c4-46ca-8554-ede95bfcf0b9"/>
+    <selectionType typeId="7eff97de-3bd7-4720-9802-0c57a13399cf" valueTypeId="5e01d4cf-e28a-4d2c-8a4e-428b4636e36f"/>
+    <listType typeId="320946c8-9083-45bd-a0d1-1c7b84be6eb0" valueTypeId="3a770c15-0e13-490a-b569-85e6f9483f44"/>
+    <managerType typeId="3b53bfc2-cc59-44d8-90ff-c525636644e4" valueTypeId="590e6acb-6489-4af4-9165-5ba9171fba43"/>
   </producedTypes>
   <name>ОплатаТКО</name>
   <synonym>
     <key>ru</key>
-    <value>Оплата ТКО</value>
+    <value>Оплата ТКО (МОД)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ОплатаТКО.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <standardAttributes>
-    <dataHistory>Use</dataHistory>
-    <name>Posted</name>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </standardAttributes>
-  <standardAttributes>
-    <dataHistory>Use</dataHistory>
-    <name>Ref</name>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </standardAttributes>
-  <standardAttributes>
-    <dataHistory>Use</dataHistory>
-    <name>DeletionMark</name>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </standardAttributes>
-  <standardAttributes>
-    <dataHistory>Use</dataHistory>
-    <name>Date</name>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </standardAttributes>
-  <standardAttributes>
-    <dataHistory>Use</dataHistory>
-    <name>Number</name>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </standardAttributes>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Платежи по ТКО</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -67,25 +30,11 @@
   <defaultObjectForm>Document.ОплатаТКО.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ОплатаТКО.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
-  <registerRecords>InformationRegister.СведенияПоТКО</registerRecords>
+  <registerRecords>InformationRegister.СведенияПоПлатежам</registerRecords>
+  <registerRecords>AccumulationRegister.ПотреблениеКомунальныхУслуг</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="4a80ff49-e2af-4964-920a-62abf0e9d109">
-    <name>ОплачиваемыйМесяц</name>
-    <synonym>
-      <key>ru</key>
-      <value>Оплачиваемый месяц</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.МесяцыОплаты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="1eccfa70-d02b-4817-a61d-eeda214f0002">
+  <attributes uuid="00374bd6-08b6-456c-b457-9dc704e8e011">
     <name>ВидПлатежа</name>
     <synonym>
       <key>ru</key>
@@ -102,52 +51,77 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="2bb949f5-2236-422e-a27e-1915e2c89b5a">
-    <name>ЕдиницаИзмерения</name>
+  <attributes uuid="97c56480-5cec-4096-9f17-01bd21526d5e">
+    <name>ОплачиваемыйМесяц</name>
     <synonym>
       <key>ru</key>
-      <value>Единица измерения</value>
+      <value>Оплачиваемый месяц</value>
     </synonym>
     <type>
-      <types>CatalogRef.ЕдиницыИзмерения</types>
+      <types>EnumRef.МесяцыОплаты</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="63595151-a254-46e4-b357-cf5704cedef7">
+    <name>ГодПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f0a24907-20ab-44aa-ae9d-3a476dce1426">
+    <name>ОплачиваемыйПериодСлужебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачиваемый период служебный</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=MM.yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=MM.yyyy</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="3c458aca-02ac-481f-aa79-9b732ede72dc">
-    <name>КвитанцияИзображение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Квитанция изображение</value>
-    </synonym>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="6ed61f44-e0af-4b11-83ed-938d06634e94">
-    <name>ЧекИзображение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Чек изображение</value>
-    </synonym>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="1391be9e-763d-432a-aa09-8c4cfcef144e">
+  <forms uuid="801493e6-ad67-4e83-8114-cc03bd251ae0">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -156,7 +130,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="92696daa-d2f4-4004-8704-2147bd831674">
+  <forms uuid="c7f76a41-b1f9-481e-a291-6ee660aac0d1">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -165,25 +139,18 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="45bcd64b-ed4a-4096-a475-de8351c745e3">
+  <tabularSections uuid="ca9185af-6bae-418e-837a-e34a4152402d">
     <producedTypes>
-      <objectType typeId="65aea01f-9f71-4964-9017-bd568546afbb" valueTypeId="181c0b54-5b9c-4256-a818-2073530fe598"/>
-      <rowType typeId="27f06315-fded-44e2-a4b8-94512307602f" valueTypeId="cc0e5ce0-17e1-48e7-9790-2bf67a5f3df1"/>
+      <objectType typeId="e6087030-6b21-44dc-9e6f-d67ba37325e6" valueTypeId="ed13ccba-31c6-4f6b-9923-27f174879b81"/>
+      <rowType typeId="b8aaa371-8074-497b-a0d4-2652656da962" valueTypeId="26a3881e-e8cc-4b88-98d4-cd61f146e9f4"/>
     </producedTypes>
     <name>ДанныеПлатежа</name>
     <synonym>
       <key>ru</key>
       <value>Данные платежа</value>
     </synonym>
-    <standardAttributes>
-      <dataHistory>Use</dataHistory>
-      <name>LineNumber</name>
-      <fillValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-    </standardAttributes>
-    <attributes uuid="bebe1394-f0bb-4883-baa0-1cb76e29e0ae">
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="823a843f-8f60-4e37-a756-a1cf1dd2e062">
       <name>Норматив</name>
       <synonym>
         <key>ru</key>
@@ -194,6 +161,7 @@
         <numberQualifiers>
           <precision>12</precision>
           <scale>3</scale>
+          <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -201,7 +169,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="3f4e0dd1-9841-4dbf-96fe-0c839688b23d">
+    <attributes uuid="55d05275-7886-49aa-b7a8-7ced60cb656e">
       <name>КоличествоЧеловек</name>
       <synonym>
         <key>ru</key>
@@ -211,6 +179,7 @@
         <types>Number</types>
         <numberQualifiers>
           <precision>12</precision>
+          <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -218,17 +187,18 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="368df7d5-b59f-44c4-9b42-0e65f1e1b72b">
-      <name>Цена</name>
+    <attributes uuid="a7f82815-cf10-4440-b35b-aaac67cc176a">
+      <name>Тариф</name>
       <synonym>
         <key>ru</key>
-        <value>Цена</value>
+        <value>Тариф</value>
       </synonym>
       <type>
         <types>Number</types>
         <numberQualifiers>
           <precision>12</precision>
           <scale>2</scale>
+          <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -236,7 +206,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="e96452d4-93a0-4071-a6bd-e6287be430d9">
+    <attributes uuid="b00f264e-5ae2-44a7-a3eb-baaeaca7d13c">
       <name>СуммаПлатежа</name>
       <synonym>
         <key>ru</key>

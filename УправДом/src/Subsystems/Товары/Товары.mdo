@@ -10,5 +10,4 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Товары</picture>
   </picture>
-  <content>Document.ПокупкаТовапров</content>
 </mdclass:Subsystem>

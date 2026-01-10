@@ -1,64 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05dc131c-a1f0-4ec2-a513-6319b0451a46">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e302459d-8c66-4d2d-a528-9006a9098b5b">
   <producedTypes>
-    <objectType typeId="54de0dc3-391e-4da1-8cb1-b16f3b6b457e" valueTypeId="76d44145-b3d9-4426-9e29-0ba10390143b"/>
-    <refType typeId="f44207d2-4cdd-4c19-9aa0-a069a0ab01d8" valueTypeId="bef65ef2-e5e7-424e-88e3-beed950ac8e8"/>
-    <selectionType typeId="0f960a84-ca8a-455b-8541-565d699aa02b" valueTypeId="7d13f7f0-29e7-4aec-b55b-8c53545921c5"/>
-    <listType typeId="69474955-cade-40e3-ad99-2d55850c4401" valueTypeId="95388f03-539f-4052-ba10-f37e9ee53e4b"/>
-    <managerType typeId="fb2e122f-a814-4fed-8888-6beafdd71d3f" valueTypeId="23a56392-5d21-46e6-86f1-e1dc9e311dff"/>
+    <objectType typeId="73bb9132-e90c-4c2f-ab74-76009351f658" valueTypeId="2ec5876c-9efe-4044-975d-c3b7af13183f"/>
+    <refType typeId="fb9b4a7f-dd72-4a65-824a-17243fc29ee4" valueTypeId="15d4add7-76e6-4f89-ac6e-d6a0f698efb4"/>
+    <selectionType typeId="10d07732-445a-47f0-80b0-601fe3e34b3a" valueTypeId="8e291df3-47a4-4a93-aa20-a0dd3c801ef7"/>
+    <listType typeId="3fa5768f-2f4b-400d-a65f-16e994a3590e" valueTypeId="3aa297f6-b0b1-4986-976c-f1b74f7fa922"/>
+    <managerType typeId="227433d8-c2ae-429e-94c9-2749f06de1c2" valueTypeId="2bf4ec44-5f44-4726-a3f2-fc21c1f5435a"/>
   </producedTypes>
   <name>ОплатаИнтернет</name>
   <synonym>
     <key>ru</key>
-    <value>Оплата интернет</value>
+    <value>Оплата Интернет (МОД)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ОплатаИнтернет.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-  <standardAttributes>
-    <dataHistory>Use</dataHistory>
-    <name>Posted</name>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </standardAttributes>
-  <standardAttributes>
-    <dataHistory>Use</dataHistory>
-    <name>Ref</name>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </standardAttributes>
-  <standardAttributes>
-    <dataHistory>Use</dataHistory>
-    <name>DeletionMark</name>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </standardAttributes>
-  <standardAttributes>
-    <dataHistory>Use</dataHistory>
-    <name>Date</name>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
-    <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </standardAttributes>
-  <standardAttributes>
-    <dataHistory>Use</dataHistory>
-    <name>Number</name>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </standardAttributes>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Платежи за интернет</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -67,25 +30,11 @@
   <defaultObjectForm>Document.ОплатаИнтернет.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ОплатаИнтернет.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
-  <registerRecords>InformationRegister.СведенияПоИнтернету</registerRecords>
+  <registerRecords>InformationRegister.СведенияПоПлатежам</registerRecords>
+  <registerRecords>AccumulationRegister.ПотреблениеКомунальныхУслуг</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="5da81647-e054-401d-bdce-f3c4564658d6">
-    <name>ОплачиваемыйМесяц</name>
-    <synonym>
-      <key>ru</key>
-      <value>Оплачиваемый месяц</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.МесяцыОплаты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="b3d7f4ac-9a1d-4a31-8a6c-772c6e122acb">
+  <attributes uuid="ba70d785-3889-455d-b5c4-dd63df715946">
     <name>ВидПлатежа</name>
     <synonym>
       <key>ru</key>
@@ -102,11 +51,81 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="93cdcdf8-e277-4b46-9609-6a54dfe1df2b">
-    <name>ДопУслугиИнтернет</name>
+  <attributes uuid="164284ea-1596-461e-bb0e-158c358170e7">
+    <name>ОплачиваемыйМесяц</name>
     <synonym>
       <key>ru</key>
-      <value>Доп услуги интернет</value>
+      <value>Оплачиваемый месяц</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МесяцыОплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="240b171c-3047-4a31-ba06-045c0a2dd1ce">
+    <name>ГодПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧГ=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fe885345-d58b-4844-9c6b-7172ccf34ad8">
+    <name>ОплачиваемыйПериодСлужебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачиваемый период служебный</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=MM.yyyy</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=MM.yyyy</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="40564a64-425d-4d6b-9623-fe31b9007e3a">
+    <name>ДопУслугиИнтернетСлужебный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп услуги интернет служебный</value>
     </synonym>
     <type>
       <types>CatalogRef.ВидыПлатежей</types>
@@ -119,11 +138,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="6b94e1cc-fc93-460b-8e57-b0bc52a0c5f8">
-    <name>ДопУслугиИнтернетВыбор</name>
+  <attributes uuid="4be7afe2-b726-4ad0-aa0f-135e4df5575f">
+    <name>УчитыватьДопУслугиИнтернет</name>
     <synonym>
       <key>ru</key>
-      <value>Допуслуги интернет, учитывать в платеже</value>
+      <value>Учитивать допуслуги интернет</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -136,14 +155,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="0fc3aa88-9ad1-4ee4-83ca-d4ed89956594">
-    <name>ЕдиницаИзмерения</name>
+  <attributes uuid="a0a406a3-a20e-4aa3-a30f-2cc5c106c6f7">
+    <name>Комментарий</name>
     <synonym>
       <key>ru</key>
-      <value>Единица измерения</value>
+      <value>Комментарий</value>
     </synonym>
     <type>
-      <types>CatalogRef.ЕдиницыИзмерения</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -151,37 +173,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="1023808f-1caa-42e0-9b8c-ea7add9073c9">
-    <name>КвитанцияИзображение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Квитанция изображение</value>
-    </synonym>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="110ba33c-9e54-4a7a-aedf-7b0e793992e8">
-    <name>ЧекИзображение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Чек изображение</value>
-    </synonym>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="b9501970-9119-45a4-85f6-d48466609c64">
+  <forms uuid="efdbaae9-8581-4160-9b80-f44655aa87de">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
@@ -190,7 +182,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="3ee82648-e8e4-4850-8042-21ea72070f78">
+  <forms uuid="14849a11-33d7-43b1-afba-5f101d138583">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -199,35 +191,29 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="ed8bb396-90ac-47cb-8af2-21e975f05fd5">
+  <tabularSections uuid="dba6c195-637a-4b74-94f8-c4e115dbc41f">
     <producedTypes>
-      <objectType typeId="a0bcd806-a4da-43b7-a851-26ee99dbc555" valueTypeId="d6ff09f9-52c3-4725-9423-69dbe66d2a38"/>
-      <rowType typeId="8057d314-c9e7-4557-9ca6-472edeaff787" valueTypeId="46542667-d3ca-43af-adbd-4701fdce3d53"/>
+      <objectType typeId="ce6a3967-e4b1-44ba-ae29-8c38f158ab61" valueTypeId="7b95d630-70fc-4b3e-be0d-5d9660e412be"/>
+      <rowType typeId="1736c116-f496-40fb-a2fa-13fdce3565c1" valueTypeId="796c3619-4d67-46b1-b5b3-6f1513247de7"/>
     </producedTypes>
     <name>ДанныеПлатежа</name>
     <synonym>
       <key>ru</key>
       <value>Данные платежа</value>
     </synonym>
-    <standardAttributes>
-      <dataHistory>Use</dataHistory>
-      <name>LineNumber</name>
-      <fillValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-    </standardAttributes>
-    <attributes uuid="20310a0f-b8f8-486a-9e4c-cdc6cccd62d4">
-      <name>ЦенаИнтернет</name>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="31bb0a2a-5fb4-438d-894b-e18df6969992">
+      <name>ТарифИнтернет</name>
       <synonym>
         <key>ru</key>
-        <value>Цена (Интернет)</value>
+        <value>Тариф интернет</value>
       </synonym>
       <type>
         <types>Number</types>
         <numberQualifiers>
           <precision>12</precision>
           <scale>2</scale>
+          <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -235,17 +221,18 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="994d4dbb-f7e5-4014-b6f8-ab09a162969f">
-      <name>ЦенаДопУслугиИнтернет</name>
+    <attributes uuid="138f1e7c-30b4-453e-91d0-1ed73c032358">
+      <name>ТарифДопУслугиИнтернет</name>
       <synonym>
         <key>ru</key>
-        <value>Цена (Допуслуги интернет)</value>
+        <value>Тариф допуслуги интернет</value>
       </synonym>
       <type>
         <types>Number</types>
         <numberQualifiers>
           <precision>12</precision>
           <scale>2</scale>
+          <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -253,7 +240,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="2cf855fe-c383-4d43-ba51-91624414082f">
+    <attributes uuid="2fb6096a-9527-4624-bee4-f61beb168f44">
       <name>СуммаПлатежа</name>
       <synonym>
         <key>ru</key>
