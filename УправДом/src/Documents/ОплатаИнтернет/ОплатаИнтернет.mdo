@@ -10,7 +10,7 @@
   <name>ОплатаИнтернет</name>
   <synonym>
     <key>ru</key>
-    <value>Оплата Интернет (МОД)</value>
+    <value>Оплата Интернет</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ОплатаИнтернет.StandardAttribute.Number</inputByString>
@@ -163,9 +163,7 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

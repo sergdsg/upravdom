@@ -282,7 +282,6 @@
   <items xsi:type="form:FormField">
     <name>ОплачиваемыйПериодСлужебный</name>
     <id>108</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -323,7 +322,6 @@
   <items xsi:type="form:FormField">
     <name>ДопУслугиИнтернетСлужебный</name>
     <id>162</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>

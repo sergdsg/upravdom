@@ -16,14 +16,14 @@
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
-      <group>CommandGroup.Сведения</group>
+      <group>NavigationPanelSeeAlso</group>
       <commands>InformationRegister.СведенияПоПлатежам.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ПотреблениеКомунальныхУслуг.StandardCommand.OpenList</commands>
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
-      <group>CommandGroup.Сведения</group>
+      <group>NavigationPanelSeeAlso</group>
       <commands>InformationRegister.СведенияПоПлатежам.StandardCommand.OpenList</commands>
       <commands>AccumulationRegister.ПотреблениеКомунальныхУслуг.StandardCommand.OpenList</commands>
     </orderFragments>

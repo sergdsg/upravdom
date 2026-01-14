@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="726aedac-9124-4766-8953-c1fa2e0ce80d">
+  <producedTypes>
+    <objectType typeId="a71b8fdf-762d-476a-b539-d3f4696b8531" valueTypeId="03b8b937-ee11-4974-bbe4-892413f463f6"/>
+    <managerType typeId="0854878b-9069-4310-8724-41b111de462d" valueTypeId="83e0c2a3-2158-4dcf-9333-ac2f07019e11"/>
+  </producedTypes>
+  <name>ИсторияПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>История платежей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ИсторияПлатежей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="082b7cd0-8fca-41ae-a532-49515b9511e6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

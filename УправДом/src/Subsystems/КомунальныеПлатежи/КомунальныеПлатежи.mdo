@@ -12,6 +12,8 @@
   </picture>
   <content>AccumulationRegister.ПотреблениеКомунальныхУслуг</content>
   <content>InformationRegister.СведенияПоПлатежам</content>
+  <content>Report.ИсторияПлатежей</content>
+  <content>Report.ОбъемыПотребленияКоммунальныхУслуг</content>
   <subsystems>Газоснабжение</subsystems>
   <subsystems>Электроснабжение</subsystems>
   <subsystems>ТвердыеКомунальныеОтходы</subsystems>

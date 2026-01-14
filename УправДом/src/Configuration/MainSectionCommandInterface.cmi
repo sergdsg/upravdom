@@ -13,11 +13,25 @@
       <group>CommandGroup.Справочники</group>
       <commands>Catalog.СоставСемьи.StandardCommand.OpenList</commands>
     </placementFragments>
+    <placementFragments>
+      <group>CommandGroup.Документы</group>
+      <commands>Document.ОплатаГазоснабжения.StandardCommand.OpenList</commands>
+      <commands>Document.ОплатаИнтернет.StandardCommand.OpenList</commands>
+      <commands>Document.ОплатаТКО.StandardCommand.OpenList</commands>
+      <commands>Document.ОплатаЭлектроснабжения.StandardCommand.OpenList</commands>
+    </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>
       <group>CommandGroup.Справочники</group>
       <commands>Catalog.СоставСемьи.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>CommandGroup.Документы</group>
+      <commands>Document.ОплатаГазоснабжения.StandardCommand.OpenList</commands>
+      <commands>Document.ОплатаЭлектроснабжения.StandardCommand.OpenList</commands>
+      <commands>Document.ОплатаТКО.StandardCommand.OpenList</commands>
+      <commands>Document.ОплатаИнтернет.StandardCommand.OpenList</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

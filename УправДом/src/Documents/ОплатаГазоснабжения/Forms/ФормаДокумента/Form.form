@@ -282,7 +282,6 @@
   <items xsi:type="form:FormField">
     <name>ОплачиваемыйПериодСлужебный</name>
     <id>108</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -321,47 +320,8 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ЕдиницаИзмерения</name>
-    <id>96</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ЕдиницаИзмерения</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>ЕдиницаИзмеренияРасширеннаяПодсказка</name>
-      <id>98</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ЕдиницаИзмеренияКонтекстноеМеню</name>
-      <id>97</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>LabelField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:LabelFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <border xsi:type="core:BorderDef">
-        <width>1</width>
-      </border>
-    </extInfo>
-  </items>
-  <items xsi:type="form:FormField">
     <name>Счетчик</name>
-    <id>99</id>
+    <id>124</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -372,7 +332,7 @@
     </dataPath>
     <extendedTooltip>
       <name>СчетчикРасширеннаяПодсказка</name>
-      <id>101</id>
+      <id>126</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -382,7 +342,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>СчетчикКонтекстноеМеню</name>
-      <id>100</id>
+      <id>125</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>LabelField</type>
@@ -400,7 +360,7 @@
   </items>
   <items xsi:type="form:FormField">
     <name>НомерСчетчика</name>
-    <id>102</id>
+    <id>127</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -411,7 +371,7 @@
     </dataPath>
     <extendedTooltip>
       <name>НомерСчетчикаРасширеннаяПодсказка</name>
-      <id>104</id>
+      <id>129</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -421,7 +381,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>НомерСчетчикаКонтекстноеМеню</name>
-      <id>103</id>
+      <id>128</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>LabelField</type>
@@ -439,7 +399,7 @@
   </items>
   <items xsi:type="form:FormField">
     <name>ДатаУстановки</name>
-    <id>105</id>
+    <id>130</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -450,7 +410,7 @@
     </dataPath>
     <extendedTooltip>
       <name>ДатаУстановкиРасширеннаяПодсказка</name>
-      <id>107</id>
+      <id>132</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -460,7 +420,46 @@
     </extendedTooltip>
     <contextMenu>
       <name>ДатаУстановкиКонтекстноеМеню</name>
-      <id>106</id>
+      <id>131</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>LabelField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:LabelFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <border xsi:type="core:BorderDef">
+        <width>1</width>
+      </border>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ЕдиницаИзмерения</name>
+    <id>133</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ЕдиницаИзмерения</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ЕдиницаИзмеренияРасширеннаяПодсказка</name>
+      <id>135</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ЕдиницаИзмеренияКонтекстноеМеню</name>
+      <id>134</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>LabelField</type>
@@ -971,6 +970,46 @@
     <extInfo xsi:type="form:PagesGroupExtInfo">
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
       <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>Комментарий</name>
+    <id>117</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Комментарий</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>КомментарийРасширеннаяПодсказка</name>
+      <id>119</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>КомментарийКонтекстноеМеню</name>
+      <id>118</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <maxWidth>100</maxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
     </extInfo>
   </items>
   <autoCommandBar>

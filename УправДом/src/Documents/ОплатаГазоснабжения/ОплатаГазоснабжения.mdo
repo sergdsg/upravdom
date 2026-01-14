@@ -10,7 +10,7 @@
   <name>ОплатаГазоснабжения</name>
   <synonym>
     <key>ru</key>
-    <value>Оплата газоснабжения (МОД)</value>
+    <value>Оплата газоснабжения</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ОплатаГазоснабжения.StandardAttribute.Number</inputByString>
@@ -115,6 +115,22 @@
       <key>ru</key>
       <value>ДФ=MM.yyyy</value>
     </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="328bf3a8-fe1c-46db-8218-649722b9a517">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>

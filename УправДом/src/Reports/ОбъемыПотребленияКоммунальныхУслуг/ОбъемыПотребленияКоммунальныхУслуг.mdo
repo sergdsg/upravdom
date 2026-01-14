@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fbf310f-760d-4949-ac9a-ce690da6f057">
+  <producedTypes>
+    <objectType typeId="109f262d-f176-40ad-b225-8d889197660e" valueTypeId="f4d5e34d-b6c5-4ad9-9ec8-b66ff9fb1bcc"/>
+    <managerType typeId="ebdc1730-df9f-4f86-9f94-18cc19037900" valueTypeId="741aefca-984b-4dd1-9a17-249920948217"/>
+  </producedTypes>
+  <name>ОбъемыПотребленияКоммунальныхУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объемы потребления коммунальных услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОбъемыПотребленияКоммунальныхУслуг.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="bd1d9fd0-e2ae-4dec-a537-e19fb8eeec01">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

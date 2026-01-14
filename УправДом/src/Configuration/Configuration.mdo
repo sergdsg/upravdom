@@ -17,7 +17,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Дербенцев Сергей Геннадьевич</vendor>
-  <version>1.0.0.1</version>
+  <version>1.0.1.1</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -77,6 +77,8 @@
   <documents>Document.УстановкаТарифовКомунальныхУслуг</documents>
   <enums>Enum.МесяцыОплаты</enums>
   <enums>Enum.Пол</enums>
+  <reports>Report.ИсторияПлатежей</reports>
+  <reports>Report.ОбъемыПотребленияКоммунальныхУслуг</reports>
   <informationRegisters>InformationRegister.НормативыКоммунальныхУслуг</informationRegisters>
   <informationRegisters>InformationRegister.СведенияПоПлатежам</informationRegisters>
   <informationRegisters>InformationRegister.ТарифыКоммунальныхУслуг</informationRegisters>

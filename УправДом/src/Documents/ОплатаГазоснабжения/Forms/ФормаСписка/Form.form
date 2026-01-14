@@ -157,19 +157,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ГодОплачиваемогоМесяца</name>
-      <id>37</id>
+      <name>ГодПлатежа</name>
+      <id>40</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.ГодОплачиваемогоМесяца</segments>
+        <segments>Список.ГодПлатежа</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ГодОплачиваемогоМесяцаРасширеннаяПодсказка</name>
-        <id>39</id>
+        <name>ГодПлатежаРасширеннаяПодсказка</name>
+        <id>42</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -178,8 +178,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ГодОплачиваемогоМесяцаКонтекстноеМеню</name>
-        <id>38</id>
+        <name>ГодПлатежаКонтекстноеМеню</name>
+        <id>41</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
@@ -190,10 +190,6 @@
       <extInfo xsi:type="form:LabelFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <format>
-          <key>ru</key>
-          <value>ЧГ=0</value>
-        </format>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
