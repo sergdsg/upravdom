@@ -17,7 +17,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Дербенцев Сергей Геннадьевич</vendor>
-  <version>1.0.1.1</version>
+  <version>1.0.1.2</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -58,12 +58,14 @@
   <commonPictures>CommonPicture.УчетныеДанные</commonPictures>
   <commonPictures>CommonPicture.Электроснабжение</commonPictures>
   <commonModules>CommonModule.РаботаСДокументамиСервер</commonModules>
+  <eventSubscriptions>EventSubscription.ОплатаПроверкаЗаполнения</eventSubscriptions>
   <commandGroups>CommandGroup.Справочники</commandGroups>
   <commandGroups>CommandGroup.Документы</commandGroups>
   <commandGroups>CommandGroup.Сведения</commandGroups>
   <catalogs>Catalog.ВидыДокументов</catalogs>
   <catalogs>Catalog.ВидыПлатежей</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
   <catalogs>Catalog.СемейныйСтатус</catalogs>
   <catalogs>Catalog.СоставСемьи</catalogs>
   <catalogs>Catalog.Счетчики</catalogs>

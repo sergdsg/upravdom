@@ -32,6 +32,7 @@
       <commands>Catalog.ВидыПлатежей.StandardCommand.OpenList</commands>
       <commands>Catalog.ЕдиницыИзмерения.StandardCommand.OpenList</commands>
       <commands>Catalog.Счетчики.StandardCommand.OpenList</commands>
+      <commands>Catalog.Поставщики.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Документы</group>
@@ -51,6 +52,7 @@
       <commands>Catalog.ВидыПлатежей.StandardCommand.OpenList</commands>
       <commands>Catalog.ЕдиницыИзмерения.StandardCommand.OpenList</commands>
       <commands>Catalog.Счетчики.StandardCommand.OpenList</commands>
+      <commands>Catalog.Поставщики.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.Документы</group>

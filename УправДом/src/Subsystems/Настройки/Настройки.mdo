@@ -18,4 +18,5 @@
   <content>InformationRegister.НормативыКоммунальныхУслуг</content>
   <content>Document.УстановкаПервичныхДанныхГазоснабжения</content>
   <content>Document.УстановкаПервичныхДанныхЭлектроснабжения</content>
+  <content>Catalog.Поставщики</content>
 </mdclass:Subsystem>

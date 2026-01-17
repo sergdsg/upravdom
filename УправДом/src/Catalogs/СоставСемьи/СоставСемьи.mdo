@@ -10,7 +10,7 @@
   <name>СоставСемьи</name>
   <synonym>
     <key>ru</key>
-    <value>СемейныеДанные</value>
+    <value>Состав семьи</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.СоставСемьи.StandardAttribute.Description</inputByString>
@@ -97,7 +97,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="5eca7daa-af9d-4a93-bc49-8242b21b9542">
+  <attributes uuid="68bf8283-1d03-4c54-81fd-03851c186ced">
     <name>ПаспортИзображение</name>
     <synonym>
       <key>ru</key>

@@ -723,7 +723,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>ИзображениеПаспорт</name>
-        <id>69</id>
+        <id>105</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -732,10 +732,9 @@
         <dataPath xsi:type="form:DataPath">
           <segments>ИзображениеПаспорт</segments>
         </dataPath>
-        <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>ИзображениеПаспортРасширеннаяПодсказка</name>
-          <id>71</id>
+          <id>107</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -745,25 +744,47 @@
         </extendedTooltip>
         <contextMenu>
           <name>ИзображениеПаспортКонтекстноеМеню</name>
-          <id>70</id>
+          <id>106</id>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>PictureField</type>
+        <type>PDFDocumentField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:ImageFieldExtInfo">
+        <extInfo xsi:type="form:PDFDocumentFieldExtInfo">
+          <viewStatusAddition>
+            <name>ИзображениеПаспортСостояниеПросмотра</name>
+            <id>108</id>
+            <extendedTooltip>
+              <name>ИзображениеПаспортСостояниеПросмотраРасширеннаяПодсказка</name>
+              <id>110</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ИзображениеПаспортСостояниеПросмотраКонтекстноеМеню</name>
+              <id>109</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>ViewStatusAddition</type>
+            <source>ИзображениеПаспорт</source>
+            <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+            </extInfo>
+          </viewStatusAddition>
+          <width>50</width>
           <autoMaxWidth>true</autoMaxWidth>
+          <height>10</height>
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
-          <pictureSize>Proportionally</pictureSize>
-          <border xsi:type="core:BorderDef">
-            <style>Single</style>
-            <width>1</width>
-          </border>
-          <fileDragMode>AsFileRef</fileDragMode>
+          <scale>100</scale>
+          <currentPageNumber>1</currentPageNumber>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -898,22 +919,41 @@
           <id>73</id>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>PictureField</type>
+        <type>PDFDocumentField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:ImageFieldExtInfo">
+        <extInfo xsi:type="form:PDFDocumentFieldExtInfo">
+          <viewStatusAddition>
+            <name>Дополнение</name>
+            <extendedTooltip>
+              <name>ФормаРасширеннаяПодсказка</name>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ФормаКонтекстноеМеню</name>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>ViewStatusAddition</type>
+            <source>ИзображениеСвидОРожд</source>
+            <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+            </extInfo>
+          </viewStatusAddition>
+          <width>50</width>
           <autoMaxWidth>true</autoMaxWidth>
+          <height>10</height>
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
-          <pictureSize>Proportionally</pictureSize>
-          <border xsi:type="core:BorderDef">
-            <style>Single</style>
-            <width>1</width>
-          </border>
-          <fileDragMode>AsFileRef</fileDragMode>
+          <scale>100</scale>
+          <currentPageNumber>1</currentPageNumber>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1048,22 +1088,41 @@
           <id>76</id>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>PictureField</type>
+        <type>PDFDocumentField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:ImageFieldExtInfo">
+        <extInfo xsi:type="form:PDFDocumentFieldExtInfo">
+          <viewStatusAddition>
+            <name>Дополнение</name>
+            <extendedTooltip>
+              <name>ФормаРасширеннаяПодсказка</name>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ФормаКонтекстноеМеню</name>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>ViewStatusAddition</type>
+            <source>ИзображениеСНИЛС</source>
+            <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+            </extInfo>
+          </viewStatusAddition>
+          <width>50</width>
           <autoMaxWidth>true</autoMaxWidth>
+          <height>10</height>
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
-          <pictureSize>Proportionally</pictureSize>
-          <border xsi:type="core:BorderDef">
-            <style>Single</style>
-            <width>1</width>
-          </border>
-          <fileDragMode>AsFileRef</fileDragMode>
+          <scale>100</scale>
+          <currentPageNumber>1</currentPageNumber>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1198,22 +1257,41 @@
           <id>79</id>
           <autoFill>true</autoFill>
         </contextMenu>
-        <type>PictureField</type>
+        <type>PDFDocumentField</type>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:ImageFieldExtInfo">
+        <extInfo xsi:type="form:PDFDocumentFieldExtInfo">
+          <viewStatusAddition>
+            <name>Дополнение</name>
+            <extendedTooltip>
+              <name>ФормаРасширеннаяПодсказка</name>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ФормаКонтекстноеМеню</name>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>ViewStatusAddition</type>
+            <source>ИзображениеИНН</source>
+            <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+            </extInfo>
+          </viewStatusAddition>
+          <width>50</width>
           <autoMaxWidth>true</autoMaxWidth>
+          <height>10</height>
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
-          <pictureSize>Proportionally</pictureSize>
-          <border xsi:type="core:BorderDef">
-            <style>Single</style>
-            <width>1</width>
-          </border>
-          <fileDragMode>AsFileRef</fileDragMode>
+          <scale>100</scale>
+          <currentPageNumber>1</currentPageNumber>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1322,8 +1400,7 @@
     </title>
     <id>2</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>PDFDocument</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1340,8 +1417,7 @@
     </title>
     <id>3</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>PDFDocument</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1358,8 +1434,7 @@
     </title>
     <id>4</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>PDFDocument</types>
     </valueType>
     <view>
       <common>true</common>
@@ -1376,8 +1451,7 @@
     </title>
     <id>5</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>PDFDocument</types>
     </valueType>
     <view>
       <common>true</common>

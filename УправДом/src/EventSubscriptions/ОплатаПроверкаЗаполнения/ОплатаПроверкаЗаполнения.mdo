@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6eebbb75-ddee-4ef4-9736-6fbd91c7cd17">
+  <name>ОплатаПроверкаЗаполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оплата проверка заполнения</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ОплатаГазоснабжения</types>
+    <types>DocumentObject.ОплатаЭлектроснабжения</types>
+  </source>
+  <event>FillCheckProcessing</event>
+  <handler>CommonModule.РаботаСДокументамиСервер.ПроверитьЗаполнениеДокументаОплатаГазСвет</handler>
+</mdclass:EventSubscription>

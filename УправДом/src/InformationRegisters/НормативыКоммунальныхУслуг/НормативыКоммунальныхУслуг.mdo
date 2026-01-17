@@ -12,7 +12,7 @@
   <name>НормативыКоммунальныхУслуг</name>
   <synonym>
     <key>ru</key>
-    <value>Нормативы коммунальных услуг</value>
+    <value>Нормативы коммунальных услуг (Добавить)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
