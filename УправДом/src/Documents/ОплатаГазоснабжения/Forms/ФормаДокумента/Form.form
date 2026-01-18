@@ -1095,6 +1095,10 @@
       <items xsi:type="form:FormField">
         <name>ДанныеПлатежаТариф</name>
         <id>53</id>
+        <title>
+          <key>ru</key>
+          <value>Тариф  (1000 м3)</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

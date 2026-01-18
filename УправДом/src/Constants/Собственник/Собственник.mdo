@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e1a847d-b9e2-497e-8228-23a839c662f7">
+  <producedTypes>
+    <managerType typeId="a98fac2c-3643-4ecd-9598-6d6b988809ae" valueTypeId="fcbf6bb7-c0d1-4368-b292-027293baa440"/>
+    <valueManagerType typeId="f2b7b4ae-04a1-49fd-9751-b3dda0b77497" valueTypeId="f16985d7-4fa3-422d-be83-f12e068ede0b"/>
+    <valueKeyType typeId="4e787cd1-e56e-4df1-a0a1-b8abf4d6f01c" valueTypeId="192511af-120c-4916-8f25-1c429f6268fe"/>
+  </producedTypes>
+  <name>Собственник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Собственник (плательщик) </value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СоставСемьи</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

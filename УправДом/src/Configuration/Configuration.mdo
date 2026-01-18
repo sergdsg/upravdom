@@ -47,7 +47,6 @@
   </languages>
   <subsystems>Subsystem.КомунальныеПлатежи</subsystems>
   <subsystems>Subsystem.Настройки</subsystems>
-  <subsystems>Subsystem.Товары</subsystems>
   <subsystems>Subsystem.УчетныеДанные</subsystems>
   <commonPictures>CommonPicture.Газоснабжение</commonPictures>
   <commonPictures>CommonPicture.Интернет</commonPictures>
@@ -62,6 +61,9 @@
   <commandGroups>CommandGroup.Справочники</commandGroups>
   <commandGroups>CommandGroup.Документы</commandGroups>
   <commandGroups>CommandGroup.Сведения</commandGroups>
+  <constants>Constant.Адрес</constants>
+  <constants>Constant.Собственник</constants>
+  <commonForms>CommonForm.Собственник</commonForms>
   <catalogs>Catalog.ВидыДокументов</catalogs>
   <catalogs>Catalog.ВидыПлатежей</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
