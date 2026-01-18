@@ -1524,17 +1524,11 @@
         <command>InformationRegister.СведенияПоПлатежам.StandardCommand.OpenByRecorder</command>
         <group>FormNavigationPanelGoTo</group>
         <index>0</index>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>AccumulationRegister.ПотреблениеКомунальныхУслуг.StandardCommand.OpenByRecorder</command>
         <group>FormNavigationPanelGoTo</group>
         <index>1</index>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
       </cmiFragmentRecord>
     </navigationPanel>
     <commandBar/>
