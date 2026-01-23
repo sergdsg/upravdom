@@ -19,6 +19,14 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Карточка домочадца</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Состав семьи</value>
+  </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -31,6 +39,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.СоставСемьи.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СоставСемьи.Form.ФормаСписка</defaultListForm>
   <attributes uuid="caa09d94-6c7b-4919-a717-69a530eaea5b">
     <name>СемейныйСтатус</name>
     <synonym>
@@ -49,6 +58,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="78a77eb5-1ccc-4a87-bfe3-8616dc0d47ef">
+    <name>Пол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Пол</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="0946c461-88e5-4c5b-80b9-f5cd5889bd2e">
     <name>ДатаРождения</name>
     <synonym>
@@ -60,21 +84,6 @@
       <dateQualifiers>
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="78a77eb5-1ccc-4a87-bfe3-8616dc0d47ef">
-    <name>Пол</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пол</value>
-    </synonym>
-    <type>
-      <types>EnumRef.Пол</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -151,6 +160,23 @@
     <type>
       <types>ValueStorage</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="38e3ddde-74aa-408e-9721-b2bff9d68496">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -259,4 +285,20 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="ae7c992f-c96b-4545-a3f3-e8f8d2747710">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1becaba2-884f-40eb-a84d-635d2f4835d5">
+    <name>ПФ_MXL_ПечатьКарточки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать карточки</value>
+    </synonym>
+  </templates>
 </mdclass:Catalog>

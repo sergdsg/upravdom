@@ -20,6 +20,10 @@
       <commands>Document.ОплатаТКО.StandardCommand.OpenList</commands>
       <commands>Document.ОплатаЭлектроснабжения.StandardCommand.OpenList</commands>
     </placementFragments>
+    <placementFragments>
+      <group>ActionsPanelReports</group>
+      <commands>CommonCommand.ПанельГлавныхОтчетов</commands>
+    </placementFragments>
   </commandsPlacement>
   <commandsOrder>
     <orderFragments>

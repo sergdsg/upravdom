@@ -2,7 +2,7 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <subsystemsOrder>
     <subsystems>Subsystem.УчетныеДанные</subsystems>
-    <subsystems>Subsystem.КомунальныеПлатежи</subsystems>
+    <subsystems>Subsystem.КоммунальныеПлатежи</subsystems>
     <subsystems>Subsystem.Настройки</subsystems>
   </subsystemsOrder>
 </cmi:CommandInterface>

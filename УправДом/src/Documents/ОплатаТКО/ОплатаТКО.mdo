@@ -262,4 +262,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="7451a0fc-535e-4e1c-b128-8aad8d92d5b7">
+    <name>ПФ_MXL_ПечатьТКО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать оплаты ТКО</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

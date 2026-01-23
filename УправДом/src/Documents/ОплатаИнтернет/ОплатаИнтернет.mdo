@@ -278,4 +278,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="1be1f73e-c833-418d-98c7-03c7d4c62d1e">
+    <name>ПФ_MXL_ПечатьИнтернет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать оплаты интернета</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

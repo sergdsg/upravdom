@@ -11,5 +11,5 @@
     <picture>CommonPicture.Электроснабжение</picture>
   </picture>
   <content>Document.ОплатаЭлектроснабжения</content>
-  <parentSubsystem>Subsystem.КомунальныеПлатежи</parentSubsystem>
+  <parentSubsystem>Subsystem.КоммунальныеПлатежи</parentSubsystem>
 </mdclass:Subsystem>

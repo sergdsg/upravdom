@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="065cecff-d7e7-4a0d-94c3-bdfec5888700">
+  <name>Статистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ИсторияПлатежей</content>
+  <parentSubsystem>Subsystem.КоммунальныеПлатежи</parentSubsystem>
+</mdclass:Subsystem>

@@ -293,4 +293,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="4e5aa20b-9fcc-47e0-a50d-03cc2625d3c0">
+    <name>ПФ_MXL_ПечатьЭлектроснабжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать оплаты электроснабжения</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

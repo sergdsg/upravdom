@@ -20,7 +20,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Дербенцев Сергей Геннадьевич</vendor>
-  <version>1.0.1.2</version>
+  <version>1.0.1.3</version>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
   <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
@@ -52,7 +52,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
-  <subsystems>Subsystem.КомунальныеПлатежи</subsystems>
+  <subsystems>Subsystem.КоммунальныеПлатежи</subsystems>
   <subsystems>Subsystem.Настройки</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
@@ -708,6 +708,8 @@
   <commonModules>CommonModule.РаботаСАдресамиКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСАдресамиПовтИсп</commonModules>
   <commonModules>CommonModule.РаботаСАдресамиСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСДатамиКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСДокументамиПечатьСервер</commonModules>
   <commonModules>CommonModule.РаботаСДокументамиСервер</commonModules>
   <commonModules>CommonModule.РаботаСПочтовымиСообщениями</commonModules>
   <commonModules>CommonModule.РаботаСПочтовымиСообщениямиВызовСервера</commonModules>
@@ -932,7 +934,9 @@
   <commonCommands>CommonCommand.НастройкаКолонтитулов</commonCommands>
   <commonCommands>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</commonCommands>
   <commonCommands>CommonCommand.Обсуждения</commonCommands>
+  <commonCommands>CommonCommand.ПанельГлавныхОтчетов</commonCommands>
   <commonCommands>CommonCommand.ПанельОтчетовАдминистрирование</commonCommands>
+  <commonCommands>CommonCommand.ПанельОтчетовКоммунальныеПлатежи</commonCommands>
   <commonCommands>CommonCommand.ПраваДоступа</commonCommands>
   <commonCommands>CommonCommand.ПредупрежденияПриЗавершенииРаботы</commonCommands>
   <commonCommands>CommonCommand.ПрисоединенныеФайлы</commonCommands>

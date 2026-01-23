@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c991b73-fca7-4e3c-995a-ef97ff1fc75a">
-  <name>КомунальныеПлатежи</name>
+  <name>КоммунальныеПлатежи</name>
   <synonym>
     <key>ru</key>
-    <value>Комунальные платежи</value>
+    <value>Коммунальные платежи</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
@@ -12,10 +12,11 @@
   </picture>
   <content>AccumulationRegister.ПотреблениеКомунальныхУслуг</content>
   <content>InformationRegister.СведенияПоПлатежам</content>
-  <content>Report.ИсторияПлатежей</content>
-  <content>Report.ОбъемыПотребленияКоммунальныхУслуг</content>
+  <content>CommonCommand.ПанельОтчетовКоммунальныеПлатежи</content>
   <subsystems>Газоснабжение</subsystems>
-  <subsystems>Электроснабжение</subsystems>
-  <subsystems>ТвердыеКомунальныеОтходы</subsystems>
   <subsystems>Интернет</subsystems>
+  <subsystems>ОперативнаяИнформация</subsystems>
+  <subsystems>Статистика</subsystems>
+  <subsystems>ТвердыеКоммунальныеОтходы</subsystems>
+  <subsystems>Электроснабжение</subsystems>
 </mdclass:Subsystem>

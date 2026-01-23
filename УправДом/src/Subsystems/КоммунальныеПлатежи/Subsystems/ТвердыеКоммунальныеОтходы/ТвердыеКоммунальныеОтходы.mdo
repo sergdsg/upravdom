@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2ba7eeb-2e78-4cab-bd79-d4a6e7e225d5">
-  <name>ТвердыеКомунальныеОтходы</name>
+  <name>ТвердыеКоммунальныеОтходы</name>
   <synonym>
     <key>ru</key>
-    <value>Твердые комунальные отходы</value>
+    <value>Твердые коммунальные отходы</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
@@ -11,5 +11,5 @@
     <picture>CommonPicture.ТвердыеКомунальныеОтходы</picture>
   </picture>
   <content>Document.ОплатаТКО</content>
-  <parentSubsystem>Subsystem.КомунальныеПлатежи</parentSubsystem>
+  <parentSubsystem>Subsystem.КоммунальныеПлатежи</parentSubsystem>
 </mdclass:Subsystem>
