@@ -20,7 +20,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Дербенцев Сергей Геннадьевич</vendor>
-  <version>1.0.1.3</version>
+  <version>1.0.1.4</version>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
   <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
@@ -708,9 +708,9 @@
   <commonModules>CommonModule.РаботаСАдресамиКлиентСервер</commonModules>
   <commonModules>CommonModule.РаботаСАдресамиПовтИсп</commonModules>
   <commonModules>CommonModule.РаботаСАдресамиСлужебныйКлиент</commonModules>
-  <commonModules>CommonModule.РаботаСДатамиКлиентСервер</commonModules>
-  <commonModules>CommonModule.РаботаСДокументамиПечатьСервер</commonModules>
-  <commonModules>CommonModule.РаботаСДокументамиСервер</commonModules>
+  <commonModules>CommonModule.РаботаСДатамиКлиентСерверУД</commonModules>
+  <commonModules>CommonModule.РаботаСДокументамиПечатьСерверУД</commonModules>
+  <commonModules>CommonModule.РаботаСДокументамиСерверУД</commonModules>
   <commonModules>CommonModule.РаботаСПочтовымиСообщениями</commonModules>
   <commonModules>CommonModule.РаботаСПочтовымиСообщениямиВызовСервера</commonModules>
   <commonModules>CommonModule.РаботаСПочтовымиСообщениямиКлиент</commonModules>
@@ -720,6 +720,8 @@
   <commonModules>CommonModule.РаботаСПочтовымиСообщениямиСлужебный</commonModules>
   <commonModules>CommonModule.РаботаСПочтовымиСообщениямиСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.РаботаСПочтовымиСообщениямиСлужебныйКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСПрисоединеннымиФайламиКлиентУД</commonModules>
+  <commonModules>CommonModule.РаботаСПрисоединеннымиФайламиСерверУД</commonModules>
   <commonModules>CommonModule.РаботаСФайлами</commonModules>
   <commonModules>CommonModule.РаботаСФайламиВТомахСлужебный</commonModules>
   <commonModules>CommonModule.РаботаСФайламиКлиент</commonModules>
@@ -843,7 +845,8 @@
   <eventSubscriptions>EventSubscription.ОбновлениеВерсииИБПередУдалениемСсылочногоОбъекта</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбработкаПредопределенныхЭлементовПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбработкаПроверкиЗаполненияПрисоединенногоФайла</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ОплатаПроверкаЗаполнения</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ОплатаПроверкаЗаполнения_УД</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ОпределитьФормуПрисоединенногоФайлаУД</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПриОтправкеДанныхГлавному</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПриОтправкеДанныхПодчиненному</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПриПолученииДанныхОтГлавного</eventSubscriptions>
@@ -860,6 +863,7 @@
   <eventSubscriptions>EventSubscription.СброситьЗначениеРеквизитаУпорядочивания</eventSubscriptions>
   <eventSubscriptions>EventSubscription.СкопироватьРеквизитыВерсииФайловВФайл</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументовУД</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.ИзвлечениеТекста</scheduledJobs>
@@ -1087,6 +1091,10 @@
   <catalogs>Catalog.МакетыПечатныхФорм</catalogs>
   <catalogs>Catalog.НаборыГруппДоступа</catalogs>
   <catalogs>Catalog.НастройкиАвторизацииИнтернетСервисов</catalogs>
+  <catalogs>Catalog.ОплатаГазоснабженияПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ОплатаИнтернетПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ОплатаТКОПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.ОплатаЭлектроснабженияПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ПапкиФайлов</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПользовательскиеНастройкиОтчетов</catalogs>
@@ -1096,6 +1104,7 @@
   <catalogs>Catalog.ПрофилиГруппДоступа</catalogs>
   <catalogs>Catalog.СемейныйСтатус</catalogs>
   <catalogs>Catalog.СоставСемьи</catalogs>
+  <catalogs>Catalog.СоставСемьиПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.Счетчики</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>

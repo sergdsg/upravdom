@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4fc8978-caac-437b-8f5f-beae1015dfac">
-  <name>РаботаСДатамиКлиентСервер</name>
+  <name>РаботаСДатамиКлиентСерверУД</name>
   <synonym>
     <key>ru</key>
     <value>Работа с датами</value>

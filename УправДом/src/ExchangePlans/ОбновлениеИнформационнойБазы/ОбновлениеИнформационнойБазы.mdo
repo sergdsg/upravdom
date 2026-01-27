@@ -287,6 +287,9 @@
     <mdObject>InformationRegister.ДлительныеОперации</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ОплатаГазоснабженияПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.НастройкиПравОбъектов</mdObject>
   </content>
   <content>
@@ -362,6 +365,9 @@
     <mdObject>Constant.НастройкиВходаПользователей</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ОплатаЭлектроснабженияПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ПараметрыОграниченияДоступа</mdObject>
   </content>
   <content>
@@ -405,6 +411,9 @@
   </content>
   <content>
     <mdObject>Catalog.ГруппыДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ОплатаИнтернетПрисоединенныеФайлы</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ОбщиеПоставляемыеМакетыПечати</mdObject>
@@ -489,6 +498,12 @@
   </content>
   <content>
     <mdObject>Catalog.ПрофилиГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ОплатаТКОПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.СоставСемьиПрисоединенныеФайлы</mdObject>
   </content>
   <content>
     <mdObject>Constant.ИдентификаторИнформационнойБазы</mdObject>

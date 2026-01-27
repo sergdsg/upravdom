@@ -9,7 +9,12 @@
     <value>Присоединенный файл объект</value>
   </synonym>
   <type>
+    <types>CatalogObject.ОплатаИнтернетПрисоединенныеФайлы</types>
     <types>CatalogObject.ВерсииФайлов</types>
+    <types>CatalogObject.СоставСемьиПрисоединенныеФайлы</types>
+    <types>CatalogObject.ОплатаГазоснабженияПрисоединенныеФайлы</types>
+    <types>CatalogObject.ОплатаЭлектроснабженияПрисоединенныеФайлы</types>
     <types>CatalogObject.Файлы</types>
+    <types>CatalogObject.ОплатаТКОПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>

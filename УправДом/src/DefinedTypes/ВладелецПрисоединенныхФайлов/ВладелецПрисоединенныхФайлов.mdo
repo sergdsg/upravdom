@@ -10,6 +10,11 @@
   </synonym>
   <type>
     <types>CatalogRef.ПапкиФайлов</types>
+    <types>DocumentRef.ОплатаТКО</types>
+    <types>DocumentRef.ОплатаЭлектроснабжения</types>
+    <types>CatalogRef.СоставСемьи</types>
+    <types>DocumentRef.ОплатаГазоснабжения</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>DocumentRef.ОплатаИнтернет</types>
   </type>
 </mdclass:DefinedType>
