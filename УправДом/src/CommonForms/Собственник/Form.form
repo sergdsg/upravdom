@@ -51,7 +51,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>НаборКонстант.Адрес</segments>
+      <segments>НаборКонстант.АдресУД</segments>
     </dataPath>
     <extendedTooltip>
       <name>АдресРасширеннаяПодсказка</name>

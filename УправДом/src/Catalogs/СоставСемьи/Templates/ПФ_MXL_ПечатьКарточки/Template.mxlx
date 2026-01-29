@@ -921,10 +921,27 @@
 			</c>
 		</row>
 	</rowsItem>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>1</id>
+		<formatIndex>47</formatIndex>
+		<beginRow>2</beginRow>
+		<beginRowOffset>14</beginRowOffset>
+		<endRow>10</endRow>
+		<endRowOffset>55</endRowOffset>
+		<beginColumn>7</beginColumn>
+		<beginColumnOffset>72</beginColumnOffset>
+		<endColumn>7</endColumn>
+		<endColumnOffset>468</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<zOrder>1</zOrder>
+		<pictureIndex>1</pictureIndex>
+	</drawing>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>47</defaultFormatIndex>
-	<height>22</height>
-	<vgRows>22</vgRows>
+	<defaultFormatIndex>48</defaultFormatIndex>
+	<height>30</height>
+	<vgRows>30</vgRows>
 	<merge>
 		<r>1</r>
 		<c>1</c>
@@ -1092,6 +1109,10 @@
 			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ФотоДомочадца</name>
+		<drawingID>1</drawingID>
+	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Шапка</name>
 		<area>
@@ -1120,6 +1141,9 @@
 	</line>
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentDrawingLineType">None</v8ui:style>
 	</line>
 	<font faceName="Arial" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Calibri" height="11" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
@@ -1573,9 +1597,16 @@
 		<textPlacement>Auto</textPlacement>
 	</format>
 	<format>
+		<drawingBorder>3</drawingBorder>
+	</format>
+	<format>
 		<font>1</font>
 		<height>57</height>
 		<width>72</width>
 		<textColor>#000000</textColor>
 	</format>
+	<picture>
+		<index>0</index>
+		<picture t="false"/>
+	</picture>
 </document>

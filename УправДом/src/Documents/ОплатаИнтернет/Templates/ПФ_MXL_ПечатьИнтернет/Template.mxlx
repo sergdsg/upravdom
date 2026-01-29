@@ -1071,10 +1071,44 @@
 			</c>
 		</row>
 	</rowsItem>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>1</id>
+		<formatIndex>56</formatIndex>
+		<beginRow>25</beginRow>
+		<beginRowOffset>38</beginRowOffset>
+		<endRow>27</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>98</beginColumnOffset>
+		<endColumn>5</endColumn>
+		<endColumnOffset>26</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<zOrder>1</zOrder>
+		<pictureIndex>1</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>2</id>
+		<formatIndex>56</formatIndex>
+		<beginRow>24</beginRow>
+		<beginRowOffset>2</beginRowOffset>
+		<endRow>31</endRow>
+		<endRowOffset>53</endRowOffset>
+		<beginColumn>4</beginColumn>
+		<beginColumnOffset>211</beginColumnOffset>
+		<endColumn>6</endColumn>
+		<endColumnOffset>194</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<zOrder>2</zOrder>
+		<pictureIndex>1</pictureIndex>
+	</drawing>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>56</defaultFormatIndex>
-	<height>29</height>
-	<vgRows>29</vgRows>
+	<defaultFormatIndex>57</defaultFormatIndex>
+	<height>36</height>
+	<vgRows>36</vgRows>
 	<merge>
 		<r>1</r>
 		<c>1</c>
@@ -1256,12 +1290,16 @@
 		<c>1</c>
 		<w>2</w>
 	</verticalUnmerge>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ПечатьПлательщика</name>
+		<drawingID>2</drawingID>
+	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Плательщик</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>23</beginRow>
-			<endRow>28</endRow>
+			<endRow>32</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1275,6 +1313,10 @@
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ПодписьПлательщика</name>
+		<drawingID>1</drawingID>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>СтрокаДанныеПлатежа</name>
@@ -1337,6 +1379,9 @@
 	</line>
 	<line width="2" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentDrawingLineType">Dotted</v8ui:style>
 	</line>
 	<font faceName="Arial" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
@@ -1860,9 +1905,16 @@
 		<indent>0</indent>
 	</format>
 	<format>
+		<drawingBorder>4</drawingBorder>
+	</format>
+	<format>
 		<font>2</font>
 		<height>57</height>
 		<width>72</width>
 		<textColor>#000000</textColor>
 	</format>
+	<picture>
+		<index>0</index>
+		<picture/>
+	</picture>
 </document>

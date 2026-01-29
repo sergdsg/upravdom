@@ -5,7 +5,7 @@
     <valueManagerType typeId="a6f26f38-6e2e-4443-8ac0-162375ed804d" valueTypeId="30775060-244a-4904-8ca2-7d1c9cea1969"/>
     <valueKeyType typeId="b2cefd38-8925-4b1b-9e73-db153c4c6bc1" valueTypeId="cb235722-e7c9-4dc4-9da1-35ba37e4269e"/>
   </producedTypes>
-  <name>Адрес</name>
+  <name>АдресУД</name>
   <synonym>
     <key>ru</key>
     <value>Адрес</value>

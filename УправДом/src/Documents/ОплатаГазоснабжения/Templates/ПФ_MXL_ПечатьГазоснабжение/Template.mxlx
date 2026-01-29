@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>9</size>
+		<size>14</size>
 		<columnsItem>
 			<index>1</index>
 			<column>
@@ -958,7 +958,6 @@
 			<c>
 				<c>
 					<f>46</f>
-					<tl/>
 				</c>
 			</c>
 			<c>
@@ -1015,10 +1014,213 @@
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>25</index>
+		<row>
+			<formatIndex>31</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>42</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>45</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>26</index>
+		<row>
+			<formatIndex>31</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>42</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>45</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>27</index>
+		<row>
+			<formatIndex>31</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>42</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>45</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+					<tl/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>28</index>
+		<row>
+			<formatIndex>31</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>42</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>45</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>1</id>
+		<formatIndex>47</formatIndex>
+		<beginRow>21</beginRow>
+		<beginRowOffset>38</beginRowOffset>
+		<endRow>23</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>2</beginColumn>
+		<beginColumnOffset>238</beginColumnOffset>
+		<endColumn>4</endColumn>
+		<endColumnOffset>53</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<zOrder>1</zOrder>
+		<pictureIndex>1</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>4</id>
+		<formatIndex>47</formatIndex>
+		<beginRow>20</beginRow>
+		<beginRowOffset>14</beginRowOffset>
+		<endRow>27</endRow>
+		<endRowOffset>55</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>194</beginColumnOffset>
+		<endColumn>5</endColumn>
+		<endColumnOffset>242</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<zOrder>2</zOrder>
+		<pictureIndex>1</pictureIndex>
+	</drawing>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>47</defaultFormatIndex>
-	<height>25</height>
-	<vgRows>25</vgRows>
+	<defaultFormatIndex>48</defaultFormatIndex>
+	<height>53</height>
+	<vgRows>53</vgRows>
 	<merge>
 		<r>1</r>
 		<c>1</c>
@@ -1166,12 +1368,16 @@
 		<c>4</c>
 		<w>3</w>
 	</merge>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ПечатьПлательщика</name>
+		<drawingID>4</drawingID>
+	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Плательщик</name>
 		<area>
 			<type>Rows</type>
 			<beginRow>19</beginRow>
-			<endRow>24</endRow>
+			<endRow>28</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1185,6 +1391,10 @@
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ПодписьПлательщика</name>
+		<drawingID>1</drawingID>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>СтрокаДанныеПлатежа</name>
@@ -1227,6 +1437,9 @@
 	</line>
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentDrawingLineType">Dotted</v8ui:style>
 	</line>
 	<font faceName="Arial" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
@@ -1682,9 +1895,16 @@
 		<indent>0</indent>
 	</format>
 	<format>
+		<drawingBorder>4</drawingBorder>
+	</format>
+	<format>
 		<font>2</font>
 		<height>57</height>
 		<width>72</width>
 		<textColor>#000000</textColor>
 	</format>
+	<picture>
+		<index>0</index>
+		<picture/>
+	</picture>
 </document>
