@@ -583,6 +583,7 @@
 	ОплатаИнтернет.Комментарий КАК Комментарий,
 	ОплатаИнтернет.Поставщик КАК Поставщик,
 	ОплатаИнтернет.СуммаПоДокументу КАК СуммаПоДокументу,
+	ОплатаИнтернет.УчитыватьДопУслугиИнтернет КАК УчитыватьДопУслугиИнтернет,
 	ОплатаИнтернет.ДанныеПлатежа.*,
 	ОплатаИнтернет.МоментВремени КАК МоментВремени,
 	ВЫБОР
@@ -689,12 +690,12 @@
         <field>СуммаПоДокументу</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ДопУслугиИнтернетСлужебный</dataPath>
-        <field>ДопУслугиИнтернетСлужебный</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>УчитыватьДопУслугиИнтернет</dataPath>
         <field>УчитыватьДопУслугиИнтернет</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДопУслугиИнтернетСлужебный</dataPath>
+        <field>ДопУслугиИнтернетСлужебный</field>
       </fields>
     </extInfo>
   </attributes>
