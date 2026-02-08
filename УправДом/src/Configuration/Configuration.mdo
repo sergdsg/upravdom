@@ -1114,7 +1114,6 @@
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ХранилищеДвоичныхДанных</catalogs>
-  <documents>Document.ДокументОбразец</documents>
   <documents>Document.ОплатаГазоснабжения</documents>
   <documents>Document.ОплатаИнтернет</documents>
   <documents>Document.ОплатаТКО</documents>
