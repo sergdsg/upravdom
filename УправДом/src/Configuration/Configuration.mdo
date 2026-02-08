@@ -20,7 +20,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Дербенцев Сергей Геннадьевич</vendor>
-  <version>1.0.1.4</version>
+  <version>1.0.1.5</version>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
   <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
@@ -653,6 +653,7 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыУД</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыУДРеализация</commonModules>
   <commonModules>CommonModule.Обсуждения</commonModules>
   <commonModules>CommonModule.ОбсужденияКлиент</commonModules>
   <commonModules>CommonModule.ОбсужденияЛокализация</commonModules>
@@ -794,6 +795,7 @@
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейСлужебный</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.УправлениеКонтактнойИнформациейУД</commonModules>
   <commonModules>CommonModule.УправлениеПечатью</commonModules>
   <commonModules>CommonModule.УправлениеПечатьюMSWordКлиент</commonModules>
   <commonModules>CommonModule.УправлениеПечатьюOOWriterКлиент</commonModules>
@@ -1007,7 +1009,7 @@
   <constants>Constant.СведенияОБлокируемыхОбъектах</constants>
   <constants>Constant.СведенияОбОбновленииИБ</constants>
   <constants>Constant.СинхронизироватьФайлы</constants>
-  <constants>Constant.Собственник</constants>
+  <constants>Constant.СобственникУД</constants>
   <constants>Constant.СоздаватьПодкаталогиСИменамиВладельцев</constants>
   <constants>Constant.СостояниеОтправкиСерверныхОповещений</constants>
   <constants>Constant.СписокЗапрещенныхРасширений</constants>
@@ -1064,7 +1066,7 @@
   <commonForms>CommonForm.РедактированиеДокументаOfficeOpen</commonForms>
   <commonForms>CommonForm.РедактированиеТабличногоДокумента</commonForms>
   <commonForms>CommonForm.СменаПароля</commonForms>
-  <commonForms>CommonForm.Собственник</commonForms>
+  <commonForms>CommonForm.СобственникУД</commonForms>
   <commonForms>CommonForm.СозданиеНачальногоОбразаСФайлами</commonForms>
   <commonForms>CommonForm.СохранениеПечатнойФормы</commonForms>
   <commonForms>CommonForm.СравнениеТабличныхДокументов</commonForms>
@@ -1112,6 +1114,7 @@
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ХранилищеДвоичныхДанных</catalogs>
+  <documents>Document.ДокументОбразец</documents>
   <documents>Document.ОплатаГазоснабжения</documents>
   <documents>Document.ОплатаИнтернет</documents>
   <documents>Document.ОплатаТКО</documents>

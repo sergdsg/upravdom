@@ -19,5 +19,5 @@
   <content>Document.УстановкаПервичныхДанныхГазоснабжения</content>
   <content>Document.УстановкаПервичныхДанныхЭлектроснабжения</content>
   <content>Catalog.Поставщики</content>
-  <content>CommonForm.Собственник</content>
+  <content>CommonForm.СобственникУД</content>
 </mdclass:Subsystem>

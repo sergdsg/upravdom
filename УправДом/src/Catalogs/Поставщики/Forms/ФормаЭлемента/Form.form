@@ -176,9 +176,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Телефон</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ТелефонРасширеннаяПодсказка</name>
       <id>15</id>
@@ -194,20 +191,10 @@
       <id>14</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>InputField</type>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>ЭлектроннаяПочта</name>
@@ -217,9 +204,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ЭлектроннаяПочта</segments>
-    </dataPath>
     <extendedTooltip>
       <name>ЭлектроннаяПочтаРасширеннаяПодсказка</name>
       <id>18</id>
@@ -235,20 +219,10 @@
       <id>17</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>InputField</type>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>Сайт</name>
@@ -258,9 +232,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Сайт</segments>
-    </dataPath>
     <extendedTooltip>
       <name>СайтРасширеннаяПодсказка</name>
       <id>21</id>
@@ -276,20 +247,10 @@
       <id>20</id>
       <autoFill>true</autoFill>
     </contextMenu>
-    <type>InputField</type>
     <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-    </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>ЛицевойСчет</name>
@@ -332,12 +293,54 @@
       <textEdit>true</textEdit>
     </extInfo>
   </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаКонтактнаяИнформация</name>
+    <id>25</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Контактная информация</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаКонтактнаяИнформацияРасширеннаяПодсказка</name>
+      <id>26</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <behavior>Auto</behavior>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>FillCheckProcessingAtServer</event>
+    <name>ОбработкаПроверкиЗаполненияНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
@@ -367,5 +370,18 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:CatalogFormExtInfo"/>
+  <extInfo xsi:type="form:CatalogFormExtInfo">
+    <handlers>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
+    </handlers>
+  </extInfo>
 </form:Form>

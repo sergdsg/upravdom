@@ -9,7 +9,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>НаборКонстант.Собственник</segments>
+      <segments>НаборКонстант.СобственникУД</segments>
     </dataPath>
     <extendedTooltip>
       <name>СобственникРасширеннаяПодсказка</name>

@@ -791,11 +791,59 @@
 	<rowsItem>
 		<index>19</index>
 		<row>
-			<formatIndex>25</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
 					<f>37</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[ИмяКИ_0]:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>38</f>
+					<parameter>Представление_0</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>20</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>37</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[ИмяКИ_1]:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>38</f>
+					<parameter>Представление_1</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>21</index>
+		<row>
+			<formatIndex>25</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>39</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -806,23 +854,13 @@
 			</c>
 			<c>
 				<c>
-					<f>38</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>39</f>
-					<parameter>Адрес</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
 					<f>40</f>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>41</f>
+					<parameter>Адрес</parameter>
 				</c>
 			</c>
 			<c>
@@ -835,40 +873,9 @@
 					<f>43</f>
 				</c>
 			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>20</index>
-		<row>
-			<c>
-				<i>1</i>
-				<c>
-					<f>44</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>45</f>
-				</c>
-			</c>
 			<c>
 				<c>
 					<f>44</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>46</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>46</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>46</f>
 				</c>
 			</c>
 			<c>
@@ -879,44 +886,85 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>21</index>
+		<index>22</index>
 		<row>
 			<c>
 				<i>1</i>
 				<c>
-					<f>44</f>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>47</f>
 					<tl/>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>45</f>
+					<f>48</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>47</f>
 					<tl/>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>46</f>
+					<f>49</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>46</f>
+					<f>49</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>46</f>
+					<f>49</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>45</f>
+					<f>48</f>
 				</c>
 			</c>
 		</row>
@@ -924,7 +972,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>1</id>
-		<formatIndex>47</formatIndex>
+		<formatIndex>50</formatIndex>
 		<beginRow>2</beginRow>
 		<beginRowOffset>14</beginRowOffset>
 		<endRow>10</endRow>
@@ -939,9 +987,9 @@
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>48</defaultFormatIndex>
-	<height>30</height>
-	<vgRows>30</vgRows>
+	<defaultFormatIndex>51</defaultFormatIndex>
+	<height>32</height>
+	<vgRows>32</vgRows>
 	<merge>
 		<r>1</r>
 		<c>1</c>
@@ -1079,6 +1127,26 @@
 		<c>3</c>
 		<w>4</w>
 	</merge>
+	<merge>
+		<r>20</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>20</r>
+		<c>3</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>21</r>
+		<c>1</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>21</r>
+		<c>3</c>
+		<w>4</w>
+	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Коммент</name>
 		<area>
@@ -1094,7 +1162,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>18</beginRow>
-			<endRow>21</endRow>
+			<endRow>23</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -1491,7 +1559,28 @@
 	</format>
 	<format>
 		<font>1</font>
-		<border>0</border>
+		<height>57</height>
+		<width>121</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Template</fillType>
+		<hidden>false</hidden>
+	</format>
+	<format>
+		<font>1</font>
+		<height>57</height>
+		<width>128</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+		<hidden>false</hidden>
+	</format>
+	<format>
+		<font>1</font>
 		<height>57</height>
 		<width>38</width>
 		<horizontalAlignment>Left</horizontalAlignment>
@@ -1502,7 +1591,6 @@
 	</format>
 	<format>
 		<font>1</font>
-		<border>0</border>
 		<height>57</height>
 		<width>137</width>
 		<horizontalAlignment>Left</horizontalAlignment>
@@ -1513,7 +1601,6 @@
 	</format>
 	<format>
 		<font>1</font>
-		<border>0</border>
 		<height>57</height>
 		<width>80</width>
 		<horizontalAlignment>Left</horizontalAlignment>
@@ -1525,7 +1612,6 @@
 	</format>
 	<format>
 		<font>1</font>
-		<border>0</border>
 		<height>57</height>
 		<width>55</width>
 		<horizontalAlignment>Left</horizontalAlignment>
@@ -1536,7 +1622,6 @@
 	</format>
 	<format>
 		<font>1</font>
-		<border>0</border>
 		<height>57</height>
 		<width>123</width>
 		<horizontalAlignment>Left</horizontalAlignment>
@@ -1547,7 +1632,6 @@
 	</format>
 	<format>
 		<font>1</font>
-		<border>0</border>
 		<height>57</height>
 		<width>90</width>
 		<horizontalAlignment>Left</horizontalAlignment>
@@ -1558,7 +1642,6 @@
 	</format>
 	<format>
 		<font>1</font>
-		<border>0</border>
 		<height>57</height>
 		<width>232</width>
 		<horizontalAlignment>Left</horizontalAlignment>
@@ -1566,6 +1649,13 @@
 		<textColor>#000000</textColor>
 		<textPlacement>Auto</textPlacement>
 		<hidden>false</hidden>
+	</format>
+	<format>
+		<font>1</font>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Auto</textPlacement>
 	</format>
 	<format>
 		<font>1</font>
@@ -1607,6 +1697,6 @@
 	</format>
 	<picture>
 		<index>0</index>
-		<picture t="false"/>
+		<picture/>
 	</picture>
 </document>

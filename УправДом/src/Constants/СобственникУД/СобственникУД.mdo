@@ -5,7 +5,7 @@
     <valueManagerType typeId="f2b7b4ae-04a1-49fd-9751-b3dda0b77497" valueTypeId="f16985d7-4fa3-422d-be83-f12e068ede0b"/>
     <valueKeyType typeId="4e787cd1-e56e-4df1-a0a1-b8abf4d6f01c" valueTypeId="192511af-120c-4916-8f25-1c429f6268fe"/>
   </producedTypes>
-  <name>Собственник</name>
+  <name>СобственникУД</name>
   <synonym>
     <key>ru</key>
     <value>Собственник (плательщик) </value>
