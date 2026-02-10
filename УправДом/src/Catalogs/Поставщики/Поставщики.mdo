@@ -49,6 +49,22 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Поставщики.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Поставщики.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="cb80bb63-4eef-46c5-ba92-888a9658519b">
+    <name>ПолноеИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="e9c4ddf2-2513-4400-baac-75fff9d0dff9">
     <name>ИНН</name>
     <synonym>
@@ -58,7 +74,43 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb592e22-dd9c-4028-a5ca-ae34bcaf1614">
+    <name>ОГРН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОГРН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="77b7b207-6191-4ef6-876b-3e8fb67dc7b8">
+    <name>КПП</name>
+    <synonym>
+      <key>ru</key>
+      <value>КПП</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
